@@ -1,0 +1,3615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_carddatabase version="4">
+  <sets>
+	<set>
+	  <name>SD01</name>
+	  <longname>Witch Laughing at the Pure Black</longname>
+	  <settype>Start Deck</settype>
+	  <releasedate>2021-10-08</releasedate>
+	</set>
+	
+	<set>
+	  <name>SD02</name>
+	  <longname>Beast King Raging at the Crimson Red</longname>
+	  <settype>Start Deck</settype>
+	  <releasedate>2021-10-08</releasedate>
+	</set>
+	
+	<set>
+	  <name>B1</name>
+	  <longname>Prelude to the Endless Wars</longname>
+	  <settype>Booster</settype>
+	  <releasedate>2021-10-08</releasedate>
+	</set>
+	
+	<set>
+	  <name>B2</name>
+	  <longname>Opening Hostilities, Crossing Destinies</longname>
+	  <settype>Booster</settype>
+	  <releasedate>2021-12-03</releasedate>
+	</set>
+	
+	<set>
+	  <name>TB1</name>
+	  <longname>Puella Magi Madoka Magica</longname>
+	  <settype>Title Booster</settype>
+	  <releasedate>2022-03-04</releasedate>
+	</set>
+	
+	<set>
+	  <name>PR</name>
+	  <longname>Promo Cards</longname>
+	  <settype>Promotional</settype>
+	  <releasedate>2021-10-08</releasedate>
+	</set>
+
+  </sets>
+  <cards>
+	<!--Prototype
+	Card
+	<card>
+		 <name></name>
+		 <text></text>
+			<prop>
+				<type></type>
+				<maintype></maintype>
+				<manacost></manacost>
+				<cmc></cmc>
+				<colors></colors>
+				<coloridentity></coloridentity>
+				<pt></pt>
+			</prop>
+		 <set rarity="" num="" picurl=""></set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<related></related> 
+	--> 
+	<!-- 	1 → Territory
+			2 → Unit
+			3 → Command -->
+	
+	<!-- SD01 -->
+	
+<card>
+<name>Casino of Doom</name>
+<text>[AUTO] When this Territory is opened or at the start of your Main Phase, you can put the top 2 cards of your deck in the graveyard. If you do so, do one of the following depending on the amount of Buster cards contained in the above cards. 
+0: Target up to 1 unit, destroy it. 
+1: Put the top card of your life zone to the graveyard. 
+2: Destroy all units except your units with the title 'Seven Deadly Sins: Greed'.</text>
+	<prop>
+		<type>Black Territory</type>
+		<Title>Seven Deadly Sins: Greed</Title>
+		<maintype>Territory</maintype>
+		<manacost>5</manacost>
+		<cmc>5</cmc>
+		<colors>Black</colors>
+		<coloridentity>Black</coloridentity>
+	</prop>
+		<set rarity="N" num="A-PR-00" picurl="https://64.media.tumblr.com/259233ec02e3a51b88f9211263604265/17248188c77f19b1-d2/s540x810/63f0282435a45ba145a7b0dc2fcc1953ccfb18f9.png">PR</set>
+		<set rarity="SD" num="A-S1-01" picurl="https://buildlabo.com/card/large/2.png">SD01</set>
+		<related>Bloom, Soul Gambler</related>
+		<tablerow>1</tablerow>
+</card>
+	
+	<card>
+		  <name>Xenos, The One Who Stares</name>
+		  <text>[CONT] This unit can open any Black Territory (Pay the opening cost)</text>
+		  <prop>
+				<type>Unit - Observer</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Black] 3[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>4500/1</pt>
+		  </prop>
+	  <set rarity="SD" num="A-S1-02" picurl="https://buildlabo.com/card/large/34.png">SD01</set>
+	  <tablerow>2</tablerow>
+	</card>
+
+	<card>
+		  <name>Bloom, Soul Gambler</name>
+		  <text>[AUTO] When this unit battles during your opponent's turn, you can put the top card of your deck to the graveyard. If it is a Buster card, for the rest of this turn this unit gets +5000 Power.
+Territory (Seven Deadly Sins: Greed): [ACT] (Normal/Rest this unit, Remove 6 cards from your graveyard). Target 1 non-'Taboo' unit from your graveyard with a total energy cost equal or less than the amount of energy you have, place it on your side of the field.</text>
+		  <prop>
+				<type>Unit/Ace - Demon/Taboo</type>
+				<Title>Seven Deadly Sins: Greed</Title>
+				<maintype>Unit</maintype>
+				<manacost>2[Black] 3[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>5500/1</pt>
+		  </prop>
+	  <set rarity="SD" num="A-S1-03" picurl="https://buildlabo.com/card/large/33.png">SD01</set>
+	  <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Liverwort, "Dead Rook"</name>
+		 <text>Territory: [AUTO] When this unit is placed, for the rest of this turn, all of your opponent's units get -6000 Power.</text>
+			<prop>
+				<type>Unit/Buster - Demon</type>
+				<maintype>Unit</maintype>
+				<manacost>3[Black] 4[Colourless]</manacost>
+				<cmc>7</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>6500/2</pt>
+			</prop>
+		 <set rarity="SD" num="A-S1-04" picurl="https://buildlabo.com/card/large/32.png">SD01</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Partial Dealer</name>
+		 <text></text>
+			<prop>
+				<type>Unit - Undead</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Black] 1[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>4000/1</pt>
+			</prop>
+		 <set rarity="SD" num="A-S1-05" picurl="https://buildlabo.com/card/large/31.png">SD01</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Rhyzome, "Black Knight"</name>
+		 <text>[Decoy]
+Territory: +3000 Power
+(Decoy: If this unit is in Rest, your opponent can only attack this unit or other units with Decoy that are in Rest)</text>
+			<prop>
+				<type>Unit/Buster - Undead</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Black] 3[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>6000/1</pt>
+			</prop>
+		 <set rarity="SD" num="A-S1-06" picurl="https://buildlabo.com/card/large/30.png">SD01</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Cursed Trump Card</name>
+		 <text>Target 1 unit, destroy it</text>
+			<prop>
+				<type>Command/Shot - Magic</type>
+				<maintype>Command</maintype>
+				<manacost>1[Black] 4[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+			</prop>
+		 <set rarity="SD" num="A-S1-07" picurl="https://buildlabo.com/card/large/29.png">SD01</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Hard Luck Claps</name>
+		 <text>Target 1 unit, for the rest of this turn, it gets -3000 Power</text>
+			<prop>
+				<type>Command/Shot - Magic</type>
+				<maintype>Command</maintype>
+				<manacost>1[Black]</manacost>
+				<cmc>1</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+			</prop>
+		 <set rarity="SD" num="A-S1-08" picurl="https://buildlabo.com/card/large/28.png">SD01</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>GAW-04 Giant Hawk</name>
+		 <text></text>
+			<prop>
+				<type>Unit - Ordnance/Grad</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Blue] 3[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>5000/1</pt>
+			</prop>
+		 <set rarity="SD" num="A-S1-09" picurl="https://buildlabo.com/card/large/27.png">SD01</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Freeda, Deep Assault "Trishula"</name>
+		 <text>[CONT] This unit cannot be blocked.
+Territory: [AUTO] When this unit is placed, Scout 3.
+(Scout: Look at the top 3 cards of your deck, place any of them on the top or bottom of the deck, in any order.)</text>
+			<prop>
+				<type>Unit/Buster - Human/Tenos</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Blue] 5[Colourless]</manacost>
+				<cmc>6</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>7000/2</pt>
+			</prop>
+		 <set rarity="SD" num="A-S1-10" picurl="https://buildlabo.com/card/large/26.png">SD01</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Vienna, Battle Engineer</name>
+		 <text>[AUTO] When this unit is placed, draw 1 card then discard 1 card.</text>
+			<prop>
+				<type>Unit - Human/Grad</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Blue] 1[Colourless]</manacost>
+				<cmc>2</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>2000/1</pt>
+			</prop>
+		 <set rarity="SD" num="A-S1-11" picurl="https://buildlabo.com/card/large/25.png">SD01</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Nadia, Heavenly Sniper "Brahmadatta"</name>
+		 <text>[AUTO] When this unit is placed, draw 1 card.
+Territory: +3000 Power</text>
+			<prop>
+				<type>Unit/Buster - Human/Tenos</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Blue] 2[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>2000/1</pt>
+			</prop>
+		 <set rarity="SD" num="A-S1-12" picurl="https://buildlabo.com/card/large/24.png">SD01</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Capital Breaker</name>
+		 <text>Target 1 unit, deal it 8000 Damage.</text>
+			<prop>
+				<type>Command/Shot - Ordnance</type>
+				<maintype>Command</maintype>
+				<manacost>1[Blue] 3[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+			</prop>
+		 <set rarity="SD" num="A-S1-13" picurl="https://buildlabo.com/card/large/23.png">SD01</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Armament Supply</name>
+		 <text>Choose 1 of the following:
+- Target 1 unit, for the rest of this turn, it gets +2000 Power
+- Target 1 unit with a total cost of 5 or less, for the rest of this turn, it gets -1 Hit</text>
+			<prop>
+				<type>Command/Shot - Ordnance</type>
+				<maintype>Command</maintype>
+				<manacost>1[Blue]</manacost>
+				<cmc>1</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+			</prop>
+		 <set rarity="SD" num="A-S1-14" picurl="https://buildlabo.com/card/large/22.png">SD01</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<!-- SD02 -->
+	
+	<card>
+		 <name>Bottomless Great Canyon</name>
+		 <text>[CONT] During your turn, your units get +3000 Power and [Blitz].
+[CONT] If you have 8 or more energy, your Ace units get +1 Hit.
+(Blitz: This unit deals battle damage first.)</text>
+			<prop>
+				<type>Red Territory</type>
+				<Title>Beast King</Title>
+				<maintype>Territory</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+			</prop>
+		 <set rarity="SD" num="A-S2-01" picurl="https://buildlabo.com/card/large/21.png">SD02</set>
+		 <related>Lionel, Indomitable Lion</related>
+		 <tablerow>1</tablerow>
+	</card>
+	
+	<card>
+		 <name>Eledophas, Raging Great Elephant</name>
+		 <text>Territory: [AUTO] When this unit wins a battle, put the top card of your deck to your energy zone as Rest. Then, if your life is in the Red Zone, target 1 of your opponent's units, this unit and the targeted unit deal damage to each other equal to their power.</text>
+			<prop>
+				<type>Unit/Buster - Human/Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>3[Red] 3[Colourless]</manacost>
+				<cmc>6</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>7000/2</pt>
+			</prop>
+		 <set rarity="SD" num="A-S2-02" picurl="https://buildlabo.com/card/large/20.png">SD02</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Rabian, Lunarhare of the Lamp</name>
+		 <text>[AUTO] When this unit is destroyed,you can put the foremost card of your life zone into your energy zone. 
+Territory: +3000 Power.</text>
+			<prop>
+				<type>Unit/Buster - Human/Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Red] 2[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>3000/1</pt>
+			</prop>
+		 <set rarity="SD" num="A-S2-03" picurl="https://buildlabo.com/card/large/19.png">SD02</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Eubat, Raging Dragon Warrior</name>
+		 <text></text>
+			<prop>
+				<type>Unit - Human/Dragon</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Red] 5[Colourless]</manacost>
+				<cmc>6</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>7000/2</pt>
+			</prop>
+		 <set rarity="SD" num="A-S2-04" picurl="https://buildlabo.com/card/large/18.png">SD02</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Lionel, Indomitable Lion</name>
+		 <text>[AUTO] When this unit wins a battle, Stand this unit.
+Territory (Beast King): [AUTO] When this unit is destroyed, you can pay 1[Red] 2[Colourless]. If you do, at the start of the End Phase, place this unit from your graveyard to your side of the field.</text>
+			<prop>
+				<type>Unit/Ace - Human/Beast</type>
+				<Title>Beast King</Title>
+				<maintype>Unit</maintype>
+				<manacost>2[Red] 3[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>6000/1</pt>
+			</prop>
+		 <set rarity="SD" num="A-S2-05" picurl="https://buildlabo.com/card/large/17.png">SD02</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Fourinawr, Blazing Eyes</name>
+		 <text>[CONT] This unit can open any Red Territory (Pay the opening cost)</text>
+			<prop>
+				<type>Unit - Observer</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Red] 3[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>4500/1</pt>
+			</prop>
+		 <set rarity="SD" num="A-S2-06" picurl="https://buildlabo.com/card/large/16.png">SD02</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Surprise Attack</name>
+		 <text>Target up to 1 unit, Rest it, draw 1 card.</text>
+			<prop>
+				<type>Command/Shot - Wit</type>
+				<maintype>Command</maintype>
+				<manacost>1[Red] 2[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+			</prop>
+		 <set rarity="SD" num="A-S2-07" picurl="https://buildlabo.com/card/large/15.png">SD02</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Beast King's Wrath</name>
+		 <text>Target 1 of your units, for the rest of this turn, it gets +2000 Power. Then, target 1 of your opponent's units, this unit and the unit targeted previously deal Damage to each other equal to to their Power.</text>
+			<prop>
+				<type>Command - Fighting Spirit</type>
+				<maintype>Command</maintype>
+				<manacost>1[Red] 1[Colourless]</manacost>
+				<cmc>2</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+			</prop>
+		 <set rarity="SD" num="A-S2-08" picurl="https://buildlabo.com/card/large/14.png">SD02</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Baongul, Sacred Beast</name>
+		 <text>[Decoy]
+Territory: +3000 Power.
+(Decoy: If this unit is in Rest, your opponent can only attack this unit or other units with Decoy that are in Rest)</text>
+			<prop>
+				<type>Unit/Buster - Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>1[White] 3[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>4500/1</pt>
+			</prop>
+		 <set rarity="SD" num="A-S2-09" picurl="https://buildlabo.com/card/large/13.png">SD02</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Albel, Angel of Rapiers</name>
+		 <text>[AUTO] When this unit is placed, target 1 of your units, for the rest of this turn, it gets +3000 Power.</text>
+			<prop>
+				<type>Unit - Angel</type>
+				<maintype>Unit</maintype>
+				<manacost>1[White] 1[Colourless]</manacost>
+				<cmc>2</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>2000/1</pt>
+			</prop>
+		 <set rarity="SD" num="A-S2-10" picurl="https://buildlabo.com/card/large/12.png">SD02</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Lutex, Squall Spirit</name>
+		 <text></text>
+			<prop>
+				<type>Unit - Spirit</type>
+				<maintype>Unit</maintype>
+				<manacost>1[White] 3[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>4000/1</pt>
+			</prop>
+		 <set rarity="SD" num="A-S2-11" picurl="https://buildlabo.com/card/large/11.png">SD02</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Embracing Angel, Elviyu</name>
+		 <text>Territory: [Decoy]
+Territory: [AUTO] When this unit battles during your opponent's turn, for that turn, this unit gets +3000 Power.
+(Decoy: If this unit is in Rest, your opponent can only attack this unit or other units with Decoy that are in Rest)</text>
+			<prop>
+				<type>Unit/Buster - Angel</type>
+				<maintype>Unit</maintype>
+				<manacost>2[White] 4[Colourless]</manacost>
+				<cmc>6</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>7500/2</pt>
+			</prop>
+		 <set rarity="SD" num="A-S2-12" picurl="https://buildlabo.com/card/large/10.png">SD02</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Sword of Reason</name>
+		 <text>Choose 1 of the following:
+- Target 1 unit, for the rest of the turn, it gains +2000 Power.
+- Target 1 of your opponent's units with a total cost 5 or less, return it their hand.</text>
+			<prop>
+				<type>Command/Shot - Reason</type>
+				<maintype>Command</maintype>
+				<manacost>1[White]</manacost>
+				<cmc>1</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+			</prop>
+		 <set rarity="SD" num="A-S2-13" picurl="https://buildlabo.com/card/large/9.png">SD02</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Shackles of Ethics</name>
+		 <text>Target 1 unit, return it to the top of the deck.</text>
+			<prop>
+				<type>Command/Shot - Reason</type>
+				<maintype>Command</maintype>
+				<manacost>2[White] 3[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+			</prop>
+		 <set rarity="SD" num="A-S2-14" picurl="https://buildlabo.com/card/large/8.png">SD02</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	
+	<!-- Booster Set 1 -->
+	
+	<card>
+		 <name>Demonic Palace of Miasma</name>
+		 <text>[AUTO] When this Territory is opened, target 1 unit from your graveyard with a total cost of 4 or less, place it on your side of the field.
+[AUTO] When your attacking unit is destroyed while battling, destroy the opponent's defending unit if its cost is equal or less to the cost of your destroyed unit +2.</text>
+			<prop>
+				<type>Black Territory</type>
+				<Title>Seven Deadly Sins: Wrath</Title>
+				<maintype>Territory</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B1-01" picurl="https://buildlabo.com/card/large/127.png">B1</set>
+		 <tablerow>1</tablerow>
+	</card>
+	
+	<card>
+		 <name>Ominous Concierge</name>
+		 <text>[AUTO] When your unit is destroyed, for the rest of this turn, this unit gets +3000 Power.
+Territory: [CONT] If you have 5 or more cards in your graveyard, this card's cost is reduced by (2 Colourless) energy (Its total cost is also reduced). This ability is active if this card is in your hand or the graveyard.</text>
+			<prop>
+				<type>Unit/Buster - Demon</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Black] 2[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>5000/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-02" picurl="https://buildlabo.com/card/large/126.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Ambition Eater</name>
+		 <text>[Decoy]
+[AUTO] When this unit is destroyed, draw 1 card.
+(Decoy: If this unit is in Rest, your opponent can only attack this unit or other units with Decoy that are in Rest)</text>
+			<prop>
+				<type>Unit - Demon</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Black] 2[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>3000/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-03" picurl="https://buildlabo.com/card/large/125.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Empress of Snakes</name>
+		 <text>[AUTO] When this unit is placed, if you have 10 or more cards in your graveyard: Target 1 of the opponent's units. For the rest of this turn, that unit gets -5000 Power.</text>
+			<prop>
+				<type>Unit - Demon</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Black] 4[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>5500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-04" picurl="https://buildlabo.com/card/large/124.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Casket Mason</name>
+		 <text>[AUTO] At the start of your End Phase, look at the top card of your deck. Then either put it back at the top of the deck or put it in your graveyard.</text>
+			<prop>
+				<type>Unit - Demon</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Black] 1[Colourless]</manacost>
+				<cmc>2</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>2500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-05" picurl="https://buildlabo.com/card/large/123.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Grudge Watcher</name>
+		 <text>[AUTO] If this unit was destroyed by battle and your life is in the Red Zone, destroy the enemy unit that battled this unit if its total cost is 6 or less.</text>
+			<prop>
+				<type>Unit - Demon</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Black] 2[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>4000/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-06" picurl="https://buildlabo.com/card/large/122.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Bestaura, Smiling at Death</name>
+		 <text>[AUTO] When this unit is destroyed, target 1 non-""Taboo"" unit from your graveyard, add it to your hand.
+Territory: +3000 Power.</text>
+			<prop>
+				<type>Unit/Buster - Demon/Taboo</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Black] 2[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>2000/1</pt>
+			</prop>
+		 <set rarity="SR" num="A-B1-07" picurl="https://buildlabo.com/card/large/121.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Margulis, Evil-Eye Demon Lord</name>
+		 <text>[CONT] This unit can also attack units in Stand
+Territory (Seven Deadly Sins: Wrath): [AUTO] At the start of your End Phase, if this unit attacked this turn, put the opponent's foremost life card in their graveyard.</text>
+			<prop>
+				<type>Unit/Ace - Demon</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Black] 3[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>6000/1</pt>
+			</prop>
+		 <set rarity="SR" num="A-B1-08" picurl="https://buildlabo.com/card/large/120.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Chainsaw Clown</name>
+		 <text>Territory: [AUTO] When this unit is placed from hand, target 1 of your opponent's non-Buster units. For the rest of this turn, it gets -5500 Power.</text>
+			<prop>
+				<type>Unit/Buster - Demon</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Black] 2[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>5500/1</pt>
+			</prop>
+		 <set rarity="R" num="A-B1-09" picurl="https://buildlabo.com/card/large/119.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Demonic Armor</name>
+		 <text></text>
+			<prop>
+				<type>Unit - Undead</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Black] 5[Colourless]</manacost>
+				<cmc>6</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>7500/2</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-10" picurl="https://buildlabo.com/card/large/118.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Parasitic Viper</name>
+		 <text>[AUTO] When this unit is destroyed, target 1 of your opponent's units with a total cost of 3 or less, destroy it.</text>
+			<prop>
+				<type>Unit - Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Black] 2[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>2500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-11" picurl="https://buildlabo.com/card/large/117.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Megaclid, Two-fold Fear</name>
+		 <text>[ACT] (Quick/3[Colourless]) For this turn, when this unit is destroyed, place it from your graveyard as Rest.
+Territory: +3000 Power</text>
+			<prop>
+				<type>Unit/Buster - Demon</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Black] 5[Colourless]</manacost>
+				<cmc>6</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>6000/2</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-12" picurl="https://buildlabo.com/card/large/116.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Blood Enforcer</name>
+		 <text>[CONT] If your life is in the Red Zone, this unit gets +3000 Power.</text>
+			<prop>
+				<type>Unit - Undead</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Black] 1[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>3500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-13" picurl="https://buildlabo.com/card/large/115.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Painful Roamer</name>
+		 <text>[AUTO] When this unit is placed, put the top card of your deck and the frontmost card of your life zone in the graveyard.</text>
+			<prop>
+				<type>Unit - Demon</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Black] 2[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>6000/1</pt>
+			</prop>
+		 <set rarity="R" num="A-B1-14" picurl="https://buildlabo.com/card/large/114.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Endaive, "Mad Bishop" </name>
+		 <text>[Decoy]
+Territory: [AUTO] When this unit is destroyed, you can Remove it from your graveyard. If you do so, target 1 command from the opponent's graveyard and play it without paying its cost. When that command is put in the graveyard again, remove it instead.
+(Decoy: If this unit is in Rest, your opponent can only attack this unit or other units with Decoy that are in Rest)</text>
+			<prop>
+				<type>Unit/Buster - Undead</type>
+				<maintype>Unit</maintype>
+				<manacost>3[Black] 4[Colourless]</manacost>
+				<cmc>7</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>7500/2</pt>
+			</prop>
+		 <set rarity="UR" num="A-B1-15" picurl="https://buildlabo.com/card/large/113.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Lucky Provider</name>
+		 <text>[ACT] (Normal/Rest this unit) Put the top card from both players' decks to their respective graveyards.If both of those cards are units, then target a player, that player put their frontmost card of their lifezone in the graveyard.</text>
+			<prop>
+				<type>Unit - Demon</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Black] 2[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>3500/1</pt>
+			</prop>
+		 <set rarity="R" num="A-B1-16" picurl="https://buildlabo.com/card/large/112.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Waiter On Repeat</name>
+		 <text>[ACT] (Normal/1 Colourless) For this turn, when this unit is destroyed, place it from your graveyard as Rest.</text>
+			<prop>
+				<type>Unit - Undead</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Black]</manacost>
+				<cmc>2</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>2000/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-17" picurl="https://buildlabo.com/card/large/111.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Crown Usurpation</name>
+		 <text>Target a player. That player targets 1 of their units, and destroys it</text>
+			<prop>
+				<type>Command - Magic</type>
+				<maintype>Command</maintype>
+				<manacost>2[Black] 1[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B1-18" picurl="https://buildlabo.com/card/large/110.png">B1</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Wicked Dealings</name>
+		 <text>Target up to 2 unit cards from your graveyard, return them to your hand</text>
+			<prop>
+				<type>Command - Magic</type>
+				<maintype>Command</maintype>
+				<manacost>2[Black] 2[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B1-19" picurl="https://buildlabo.com/card/large/109.png">B1</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Witch Doctor's Scheme</name>
+		 <text>Target 1 unit, for the rest of this turn, it gets -6000 Power, -1 Hit</text>
+			<prop>
+				<type>Command/Shot - Magic</type>
+				<maintype>Command</maintype>
+				<manacost>1[Black] 2[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+			</prop>
+		 <set rarity="R" num="A-B1-20" picurl="https://buildlabo.com/card/large/108.png">B1</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Slots of Devastation</name>
+		 <text>All units currently on the field get -5000 Power for the rest of this turn.</text>
+			<prop>
+				<type>Command/Shot - Magic</type>
+				<maintype>Command</maintype>
+				<manacost>1[Black] 3[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B1-21" picurl="https://buildlabo.com/card/large/107.png">B1</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>One Night's Nightmare</name>
+		 <text>Target 1 unit from either player's graveyard with a total cost that is equal or less than your energy. Place it on your side of the field. At the start of the end phase, Remove that unit.</text>
+			<prop>
+				<type>Command - Magic</type>
+				<maintype>Command</maintype>
+				<manacost>2[Black] 4[Colourless]</manacost>
+				<cmc>6</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+			</prop>
+		 <set rarity="R" num="A-B1-22" picurl="https://buildlabo.com/card/large/106.png">B1</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Strongpoint Barbabylon</name>
+		 <text>[AUTO] When you play a command with a total cost of 5 or less, you can Remove 1 card from your hand. If you do so, that command is copied ((You cannot copy another copy. You can choose new targets for the effects of the copy)</text>
+			<prop>
+				<type>Blue Territory</type>
+				<Title>Annihilation Princess</Title>
+				<maintype>Territory</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B1-23" picurl="https://buildlabo.com/card/large/105.png">B1</set>
+		 <related>TX-07 Iora, Binary Novas "Diosirius"</related>
+		 <tablerow>1</tablerow>
+	</card>
+	
+	<card>
+		 <name>Landship Grandmiral</name>
+		 <text>[ACT] (Normal) If all of your energy is in Rest, target 1 unit. For the rest of the turn, your units cannot be blocked, and the chosen unit gets +1 Hit. This ability can only be used once per turn.</text>
+			<prop>
+				<type>Blue Territory</type>
+				<Title>Brave Princess</Title>
+				<maintype>Territory</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B1-24" picurl="https://buildlabo.com/card/large/104.png">B1</set>
+		 <related>Claudia, Lead Striker</related>
+		 <tablerow>1</tablerow>
+	</card>
+	
+	<card>
+		 <name>Prunel, Intelligence Officer</name>
+		 <text>[CONT] This unit can open any Blue Territory (Pay the opening cost)</text>
+			<prop>
+				<type>Unit - Observer</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Blue] 3[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>4500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-25" picurl="https://buildlabo.com/card/large/103.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Mira, Heavy Railgunner "Keraunos"</name>
+		 <text>[CONT] If your life is in the Red Zone, this unit gets +2000 Power and [Blitz]
+(Blitz: This unit deals battle damage first.)</text>
+			<prop>
+				<type>Unit - Human/Tenos</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Blue] 3[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>5500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-26" picurl="https://buildlabo.com/card/large/102.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>GW-920 Gunegg</name>
+		 <text></text>
+			<prop>
+				<type>Unit - Ordnance/Grad</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Blue] 2[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>4000/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-27" picurl="https://buildlabo.com/card/large/101.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Yohana, Spent Grenadier</name>
+		 <text>[CONT] If all of your energy is in Rest, this unit gets +3000 Power</text>
+			<prop>
+				<type>Unit - Human/Grad</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Blue] 2[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>2000/1</pt>
+			</prop>
+		 <set rarity="R" num="A-B1-28" picurl="https://buildlabo.com/card/large/100.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Meiji, Swift Sprinter "Talaria"</name>
+		 <text>Territory: [CONT] This unit cannot be blocked
+Territory: +3000 Power</text>
+			<prop>
+				<type>Unit/Buster - Human/Tenos</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Blue] 4[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>6000/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-29" picurl="https://buildlabo.com/card/large/99.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>TX-07 Iora, Binary Novas "Diosirius"</name>
+		 <text>[AUTO] When this unit is placed, Scout 3.
+Territory (Annihilation Princess): [AUTO] When this unit attacks, you can put the top card of your deck in the graveyard. If that card is a command with a combined cost of 3 or less, you can play that card without paying its cost.
+Scout: Look at the top 3 cards of your deck, place any of them on the top or bottom of the deck, in any order.</text>
+			<prop>
+				<type>Unit/Ace - Human/Tenos</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Blue] 3[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>5500/1</pt>
+			</prop>
+		 <set rarity="SR" num="A-B1-30" picurl="https://buildlabo.com/card/large/98.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>TX-04 Zofia, Tempest Flash Blade "Durandal"</name>
+		 <text>Territory: [AUTO] When this unit is placed from hand, you can play 1 command from your hand with a total cost of 5 or less without paying its cost.</text>
+			<prop>
+				<type>Unit/Buster - Human/Tenos</type>
+				<maintype>Unit</maintype>
+				<manacost>3[Blue] 4[Colourless]</manacost>
+				<cmc>7</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>9000/2</pt>
+			</prop>
+		 <set rarity="UR" num="A-B1-31" picurl="https://buildlabo.com/card/large/97.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>TM-73 Tranrock</name>
+		 <text></text>
+			<prop>
+				<type>Unit - Ordnance/Tenos</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Blue] 4[Colourless]</manacost>
+				<cmc>6</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>7500/2</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-32" picurl="https://buildlabo.com/card/large/96.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Jill, Master of Disguise</name>
+		 <text>[CONT] This unit cannot be attacked.</text>
+			<prop>
+				<type>Unit - Human/Grad</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Blue] 3[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>4500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-33" picurl="https://buildlabo.com/card/large/95.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Djeena, Barret Rider</name>
+		 <text>[AUTO] When this unit is placed, draw 1 card then discard 1 card.</text>
+			<prop>
+				<type>Unit - Human/Grad</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Blue] 2[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>4500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-34" picurl="https://buildlabo.com/card/large/94.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Mafrena, Pyromaniac</name>
+		 <text>[AUTO] When this unit is placed, target 1 unit, deal it 3000 Damage.
+Territory: [Decoy]
+(Decoy: If this unit is in Rest, your opponent can only attack this unit or other units with Decoy that are in Rest)</text>
+			<prop>
+				<type>Unit/Buster - Human/Grad</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Blue] 2[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>5500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-35" picurl="https://buildlabo.com/card/large/93.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Ema, Parkour Tracer</name>
+		 <text>[CONT] This unit can attack ignoring [Decoy],</text>
+			<prop>
+				<type>Unit - Human/Grad</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Blue] 2[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>5000/1</pt>
+			</prop>
+		 <set rarity="R" num="A-B1-36" picurl="https://buildlabo.com/card/large/92.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Lydia, First Guard</name>
+		 <text>[Decoy] 
+(Decoy: If this unit is in Rest, your opponent can only attack this unit or other units with Decoy that are in Rest</text>
+			<prop>
+				<type>Unit - Human/Grad</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Blue]</manacost>
+				<cmc>2</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>2500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-37" picurl="https://buildlabo.com/card/large/91.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Yipha, Ashen Aurora Borealis "Fragarach"</name>
+		 <text>Territory: [AUTO] Units that were damaged by this unit, for the remainder of the turn, when they are destroyed, they are Removed instead.</text>
+			<prop>
+				<type>Unit/Buster - Human/Tenos</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Blue] 3[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>7500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-38" picurl="https://buildlabo.com/card/large/90.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Yalmira, Rack Gunner</name>
+		 <text>[CONT] If all of your energy is at Rest, this unit gets +3000 Power.
+Territory: [AUTO] When this unit is placed, if all of your energy is at Rest, target up to 1 unit, deal it 5000 Damage, then draw 1 card.</text>
+			<prop>
+				<type>Unit/Buster - Human/Grad</type>
+				<maintype>Unit</maintype>
+				<manacost>3[Blue] 3[Colourless]</manacost>
+				<cmc>6</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>6000/2</pt>
+			</prop>
+		 <set rarity="SR" num="A-B1-39" picurl="https://buildlabo.com/card/large/89.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Claudia, Lead Striker</name>
+		 <text>[ACT] (Normal/1 Blue) Target 1 unit, deal it 3000 Damage. This ability can only be used once per turn.
+Territory (Brave Princess): [CONT] If all of your energy is in Rest, this unit cannot be attacked and gets +1 Hit.</text>
+			<prop>
+				<type>Unit/Ace - Human/Grad</type>
+				<Title>Brave Princess</Title>
+				<maintype>Unit</maintype>
+				<manacost>2[Blue] 3[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>6000/1</pt>
+			</prop>
+		 <set rarity="R" num="A-B1-40" picurl="https://buildlabo.com/card/large/88.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Heavy Ballistic Missile "Despair"</name>
+		 <text>Target 1 unit, deal it 10000 Damage.</text>
+			<prop>
+				<type>Command/Shot - Ordnance</type>
+				<maintype>Command</maintype>
+				<manacost>2[Blue] 3[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+			</prop>
+		 <set rarity="R" num="A-B1-41" picurl="https://buildlabo.com/card/large/87.png">B1</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Suppression By Firepower </name>
+		 <text>Target 1 unit, for the rest of this turn, the next Damage this unit deals to units is nullified.</text>
+			<prop>
+				<type>Command - Ordnance</type>
+				<maintype>Command</maintype>
+				<manacost>1[Blue]</manacost>
+				<cmc>1</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B1-42" picurl="https://buildlabo.com/card/large/86.png">B1</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>On-Site Equipment Repairs</name>
+		 <text>Target up to 1 unit, draw 1 card, then for the rest of this turn this unit gets +4000 Power.</text>
+			<prop>
+				<type>Command/Shot - Ordnance</type>
+				<maintype>Command</maintype>
+				<manacost>1[Blue] 2[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B1-43" picurl="https://buildlabo.com/card/large/85.png">B1</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Prototype Ordnance Development</name>
+		 <text>Draw 2 cards.</text>
+			<prop>
+				<type>Command - Ordnance</type>
+				<maintype>Command</maintype>
+				<manacost>2[Blue] 1[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+			</prop>
+		 <set rarity="R" num="A-B1-44" picurl="https://buildlabo.com/card/large/84.png">B1</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Brute-Force Jamming</name>
+		 <text>Target 1 unit, for the rest of this turn, it gets -2 Hit.</text>
+			<prop>
+				<type>Command/Shot - Ordnance</type>
+				<maintype>Command</maintype>
+				<manacost>1[Blue] 1[Colourless]</manacost>
+				<cmc>2</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B1-45" picurl="https://buildlabo.com/card/large/83.png">B1</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Blue Burst</name>
+		 <text>Deal 5000 Damage to your opponent's units.</text>
+			<prop>
+				<type>Command/Shot - Ordnance</type>
+				<maintype>Command</maintype>
+				<manacost>2[Blue] 2[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B1-46" picurl="https://buildlabo.com/card/large/82.png">B1</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Sky Fortress</name>
+		 <text>[ACT] (Normal) Look at the top 2 cards of your deck, you can place on your side of the field 1 Buster unit with a total cost of 5 or less from among them. Put the rest at the bottom of your deck in any order. This ability can only be used once per turn.</text>
+			<prop>
+				<type>White Territory</type>
+				<Title>Oppressor</Title>
+				<maintype>Territory</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B1-47" picurl="https://buildlabo.com/card/large/81.png">B1</set>
+		 <related>Douglark, Angel of Oppression</related>
+		 <tablerow>1</tablerow>
+	</card>
+	
+	<card>
+		 <name>Temple of Judgement</name>
+		 <text>[AUTO] When this Territory is opened and at the start of your Main Phase, you can remove 2 Judgement Counters. If you do so, then target 1 unit, return it to the hand.
+[CONT] When your unit with [Judgement] is destroyed, you gain 1 Judgement Counter.</text>
+			<prop>
+				<type>White Territory</type>
+				<Title>Adjudicator</Title>
+				<maintype>Territory</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B1-48" picurl="https://buildlabo.com/card/large/80.png">B1</set>
+		 <tablerow>1</tablerow>
+	</card>
+	
+	<card>
+		 <name>Vreppo, Sparkling Gaze</name>
+		 <text>[CONT] This unit can open any White Territory (Pay the opening cost)</text>
+			<prop>
+				<type>Unit - Observer</type>
+				<maintype>Unit</maintype>
+				<manacost>1[White] 3[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>4500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-49" picurl="https://buildlabo.com/card/large/79.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Rookbem, Spirit of the Crags</name>
+		 <text>[Decoy] 
+(Decoy: If this unit is in Rest, your opponent can only attack this unit or other units with Decoy that are in Rest)</text>
+			<prop>
+				<type>Unit - Spirit</type>
+				<maintype>Unit</maintype>
+				<manacost>1[White] 2[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>3500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-50" picurl="https://buildlabo.com/card/large/78.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Valerie, Angel of Self-Restraint</name>
+		 <text></text>
+			<prop>
+				<type>Unit - Angel</type>
+				<maintype>Unit</maintype>
+				<manacost>1[White] 2[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>2500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-51" picurl="https://buildlabo.com/card/large/77.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Alkolice, Spirit of Rainbows</name>
+		 <text>[AUTO] When this unit is placed, target up to 1 of your opponent's units with a total cost of 4 or less, return it to their hand.
+Territory: +3000 Power.</text>
+			<prop>
+				<type>Unit/Buster - Spirit/Recurring</type>
+				<maintype>Unit</maintype>
+				<manacost>1[White] 2[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>3000/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-52" picurl="https://buildlabo.com/card/large/76.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Righrie, Twin Angel of Punishment</name>
+		 <text>[Judgement: When your opponent places a creature, you gain 1 Judgement Counter]</text>
+			<prop>
+				<type>Unit - Angel</type>
+				<maintype>Unit</maintype>
+				<manacost>2[White] 3[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>6000/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-53" picurl="https://buildlabo.com/card/large/75.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Lerfie, Twin Angel of Punishment</name>
+		 <text>[Judgement: When your opponent places a creature, you gain 1 Judgement Counter]</text>
+			<prop>
+				<type>Unit - Angel</type>
+				<maintype>Unit</maintype>
+				<manacost>1[White] 3[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>4500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-54" picurl="https://buildlabo.com/card/large/74.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Pegafall, Sacred Beast</name>
+		 <text>Territory: +3000 Power</text>
+			<prop>
+				<type>Unit/Buster - Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>2[White] 2[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>5500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-55" picurl="https://buildlabo.com/card/large/73.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Ladrasis, Sacred Beast</name>
+		 <text>[Judgement: When your opponent places a creature, you gain 1 Judgement Counter]</text>
+			<prop>
+				<type>Unit - Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>1[White] 1[Colourless]</manacost>
+				<cmc>2</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>2500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-56" picurl="https://buildlabo.com/card/large/72.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Margeria, Angel of Judgement</name>
+		 <text>[Judgement: When your opponent places a creature, you gain 1 Judgement Counter]
+[ACT] (Quick/1 [White], Remove 2 Judgement Counters) Target 1 unit, for the rest of this turn, nullify the next damage it receives. This ability can only be used once per turn.
+Territory (Adjudicator): [CONT] If you have removed at least 1 Judgement Counter this turn, this unit gets +5000 Power, +1 Hit.</text>
+			<prop>
+				<type>Unit - Angel</type>
+				<maintype>Unit</maintype>
+				<manacost>2[White] 3[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>5500/1</pt>
+			</prop>
+		 <set rarity="SR" num="A-B1-57" picurl="https://buildlabo.com/card/large/71.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Sukyuul, Spirit of Bubbles</name>
+		 <text>[AUTO] When this unit is placed, if you have 2 or more other units on your side of the field, draw 1 card.</text>
+			<prop>
+				<type>Unit - Spirit</type>
+				<maintype>Unit</maintype>
+				<manacost>1[White] 2[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>3000/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-58" picurl="https://buildlabo.com/card/large/70.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Glossmarble, Sacred Golem</name>
+		 <text></text>
+			<prop>
+				<type>Unit - Giant</type>
+				<maintype>Unit</maintype>
+				<manacost>1[White] 6[Colourless]</manacost>
+				<cmc>7</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>8000/2</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-59" picurl="https://buildlabo.com/card/large/69.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Douglark, Angel of Oppression</name>
+		 <text>[CONT] For each of your other units, this unit gets +3000 Power.
+[CONT] This unit's Hit cannot be changed.
+Territory (Oppressor): [AUTO] When this unit attacks, you can Rest one of your other units. If you do so, Stand this unit.</text>
+			<prop>
+				<type>Unit/Ace - Angel</type>
+				<Title>Oppressor</Title>
+				<maintype>Unit</maintype>
+				<manacost>2[White] 3[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>3000/1</pt>
+			</prop>
+		 <set rarity="R" num="A-B1-60" picurl="https://buildlabo.com/card/large/68.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Kyuuma, Spirit of the Surging Waves</name>
+		 <text>Territory:  [AUTO] When this unit is placed from hand, target 1 of your opponent's units with a total cost of 7 or more, return it to their hand.</text>
+			<prop>
+				<type>Unit/Buster - Angel</type>
+				<maintype>Unit</maintype>
+				<manacost>2[White] 3[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>7500/1</pt>
+			</prop>
+		 <set rarity="R" num="A-B1-61" picurl="https://buildlabo.com/card/large/67.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Elisabert, Angel of the Law</name>
+		 <text>[Judgement: When your opponent places a creature, you gain 1 Judgement Counter]
+Territory: [AUTO] When this unit is placed, you can remove 1 Judgement Counter. If you do so, draw 1 card, then place up to 1 unit from your hand with a total cost of 5 or less to your side of the field.</text>
+			<prop>
+				<type>Unit/Buster -  Angel</type>
+				<maintype>Unit</maintype>
+				<manacost>3[White] 3[Colourless]</manacost>
+				<cmc>6</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>7500/2</pt>
+			</prop>
+		 <set rarity="UR" num="A-B1-62" picurl="https://buildlabo.com/card/large/66.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Marcella, Angel of Entricement</name>
+		 <text>[Decoy] 
+(Decoy: If this unit is in Rest, your opponent can only attack this unit or other units with Decoy that are in Rest)</text>
+			<prop>
+				<type>Unit - Angel</type>
+				<maintype>Unit</maintype>
+				<manacost>3[White] 2[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>6500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-63" picurl="https://buildlabo.com/card/large/65.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Growner, Spirit of Thunderstrikes</name>
+		 <text>[Judgement: When your opponent places a creature, you gain 1 Judgement Counter]</text>
+			<prop>
+				<type>Unit - Spirit</type>
+				<maintype>Unit</maintype>
+				<manacost>2[White] 1[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>4000/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-64" picurl="https://buildlabo.com/card/large/64.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Godniss, Angel of Melee Combat</name>
+		 <text>[AUTO] When this unit is destroyed, you can Remove this card from your graveyard. If you do so, then target 1 card from your graveyard, return it to your deck and then shuffle your deck.
+Territory: [AUTO] When is unit is placed from your deck, look at the top card of your deck, place on your side of the field up to 1 unit with a total cost of 4 or less from among them. Put the rest at the bottom of your deck in any order.</text>
+			<prop>
+				<type>Unit/Buster - Angel</type>
+				<maintype>Unit</maintype>
+				<manacost>3[White] 2[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>5000/1</pt>
+			</prop>
+		 <set rarity="SR" num="A-B1-65" picurl="https://buildlabo.com/card/large/63.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Caged Principle</name>
+		 <text>Target 1 unit with a total cost of 3 or less, return it to the hand.</text>
+			<prop>
+				<type>Command/Shot - Reason</type>
+				<maintype>Command</maintype>
+				<manacost>1[White]</manacost>
+				<cmc>1</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+			</prop>
+		 <set rarity="R" num="A-B1-66" picurl="https://buildlabo.com/card/large/62.png">B1</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Collapse of Rationality</name>
+		 <text>Target 1 command that is currently being played. Negate its effects, then put it in the graveyard.</text>
+			<prop>
+				<type>Command - Reason</type>
+				<maintype>Command</maintype>
+				<manacost>3[White]</manacost>
+				<cmc>3</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B1-67" picurl="https://buildlabo.com/card/large/61.png">B1</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Judgement by Common Sense</name>
+		 <text>Remove any amount of Judgement Counters. Then, return all of your opponent's units with a total cost equal or less than the amount of Judgement Counters removed to their hand.</text>
+			<prop>
+				<type>Command - Reason</type>
+				<maintype>Command</maintype>
+				<manacost>2[White] 3[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B1-68" picurl="https://buildlabo.com/card/large/60.png">B1</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Helix of Birth</name>
+		 <text>Look at the top 3 cards of your deck. Place on your side of the field up to 2 non-Buster units with a total cost (referring to each unit) of 4 or less from among them. Put the rest at the bottom of your deck in any order.</text>
+			<prop>
+				<type>Command - Reason</type>
+				<maintype>Command</maintype>
+				<manacost>2[White] 4[Colourless]</manacost>
+				<cmc>6</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+			</prop>
+		 <set rarity="R" num="A-B1-69" picurl="https://buildlabo.com/card/large/59.png">B1</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>The Sunrise's Divine Aid</name>
+		 <text>Choose 1 of the following:
+- Target 1 unit, for the rest of this turn, this unit gets +3000 Power.
+- Target 1 unit. If it is your opponent's turn, for the rest of this turn, this unit gets +5000 Power.</text>
+			<prop>
+				<type>Command - Reason</type>
+				<maintype>Command</maintype>
+				<manacost>1[White]</manacost>
+				<cmc>1</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B1-70" picurl="https://buildlabo.com/card/large/58.png">B1</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Jaws of the Flame Dragon</name>
+		 <text>[AUTO] When a unit with a total cost of 7 or more is placed on your side of the field, shuffle your deck, then put the top card of your deck to the front of your life zone.</text>
+			<prop>
+				<type>Red Territory</type>
+				<Title>Dragonewt King</Title>
+				<maintype>Territory</maintype>
+				<manacost>6</manacost>
+				<cmc>6</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B1-71" picurl="https://buildlabo.com/card/large/57.png">B1</set>
+		 <related>Badratos, Wrath of the Raging Flames</related>
+		 <tablerow>1</tablerow>
+	</card>
+	
+	<card>
+		 <name>Passau, Wind-Reader Wings</name>
+		 <text>[AUTO] When this unit is placed, if you have 8 or more energy, draw 1 card.</text>
+			<prop>
+				<type>Unit - Human/Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Red] 1[Colourless]</manacost>
+				<cmc>2</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>2000/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-72" picurl="https://buildlabo.com/card/large/56.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Beeros, Crocodile-Scaled Soldier</name>
+		 <text>[Decoy] 
+(Decoy: If this unit is in Rest, your opponent can only attack this unit or other units with Decoy that are in Rest)</text>
+			<prop>
+				<type>Unit - Human/Dragon</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Red] 4[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>5500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-73" picurl="https://buildlabo.com/card/large/55.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Caral, Black-Eared Hunter </name>
+		 <text>Territory: [AUTO] If your life is in the Red Zone, this unit gets +1 Hit and it cannot be targeted by your opponent except by your opponent's commands that are played as triggers.</text>
+			<prop>
+				<type>Unit/Buster - Human/Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Red] 3[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>7000/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-74" picurl="https://buildlabo.com/card/large/54.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Leagro, Slippery-Legged Thief</name>
+		 <text></text>
+			<prop>
+				<type>Unit - Human/Dragon</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Red] 2[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>4000/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-75" picurl="https://buildlabo.com/card/large/53.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Dimoreon, Stout Soldier</name>
+		 <text>[Decoy] 
+(Decoy: If this unit is in Rest, your opponent can only attack this unit or other units with Decoy that are in Rest)</text>
+			<prop>
+				<type>Unit - Human/Dragon</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Red] 7[Colourless]</manacost>
+				<cmc>8</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>8500/2</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-76" picurl="https://buildlabo.com/card/large/52.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Agora, Watchful White Rabbit</name>
+		 <text>[AUTO] When this unit is placed, if your life is in the Yellow Zone, you can put the frontmost card of your life zone in the energy zone.
+Territory: +3000 Power.</text>
+			<prop>
+				<type>Unit/Buster - Human/Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Red] 2[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>4000/1</pt>
+			</prop>
+		 <set rarity="R" num="A-B1-77" picurl="https://buildlabo.com/card/large/51.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Wulfen, Hungry Wolf's Slash</name>
+		 <text>[CONT] If you have 8 or more energy, this unit gets +3000 Power.
+Territory: [AUTO] When this unit attacks, choose 1 of the following:
+- Put the top card of your deck in your energy zone as Rest.
+- If your life is in the Red Zone, shuffle your deck, then put the top card of your deck to the front of your life zone.</text>
+			<prop>
+				<type>Unit/Buster - Human/Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>3[Red] 3[Colourless]</manacost>
+				<cmc>6</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>6500/2</pt>
+			</prop>
+		 <set rarity="UR" num="A-B1-78" picurl="https://buildlabo.com/card/large/50.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Masteen, Master Dog-Fighter</name>
+		 <text>[CONT] If you have 8 or more energy, this unit gets +3000 Power.</text>
+			<prop>
+				<type>Unit - Human/Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Red] 3[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>4500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-79" picurl="https://buildlabo.com/card/large/49.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Mike, Innocent Kitten</name>
+		 <text>[Blitz]
+(Blitz: This unit deals battle damage first.)</text>
+			<prop>
+				<type>Unit - Human/Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Red]</manacost>
+				<cmc>2</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>3000/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-80" picurl="https://buildlabo.com/card/large/47.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Renren, Lazy Hero</name>
+		 <text>[AUTO] When this unit is placed, if you have 8 or more energy, target up to 1 of your opponent's units: This unit and the chosen unit deal damage to each other equal to their power.</text>
+			<prop>
+				<type>Unit - Human/Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Red] 2[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>4000/1</pt>
+			</prop>
+		 <set rarity="R" num="A-B1-81" picurl="https://buildlabo.com/card/large/46.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Buff, Dash of the Raging Bull</name>
+		 <text></text>
+			<prop>
+				<type>Unit - Human/Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>3[Red] 5[Colourless]</manacost>
+				<cmc>8</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>7000/3</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-82" picurl="https://buildlabo.com/card/large/45.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Farnas, Resentful Dragon Fencer</name>
+		 <text>[Blitz]
+Territory: [CONT] This unit get +1 Hit.
+(Blitz: This unit deals battle damage first.)</text>
+			<prop>
+				<type>Unit/Buster - Human/Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Red] 5[Colourless]</manacost>
+				<cmc>7</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>8000/2</pt>
+			</prop>
+		 <set rarity="R" num="A-B1-83" picurl="https://buildlabo.com/card/large/44.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Blazing Monkey</name>
+		 <text>[Decoy] 
+[CONT] If you have 6 or more energy, this unit gets +3000 Power.
+(Decoy: If this unit is in Rest, your opponent can only attack this unit or other units with Decoy that are in Rest)</text>
+			<prop>
+				<type>Unit - Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Red] 2[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>3000/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-84" picurl="https://buildlabo.com/card/large/43.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Ottär, Innocent Sailor</name>
+		 <text>[CONT] If you have 6 or more energy, this unit gets +3000 Power.</text>
+			<prop>
+				<type>Unit - Human/Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Red] 1[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>2500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B1-85" picurl="https://buildlabo.com/card/large/42.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Granadiga, Ferocious Flame Dragon </name>
+		 <text>[CONT] This unit cannot be targeted by your opponent except by your opponent's commands that are played as triggers.
+[CONT] This unit cannot block.
+Territory: [AUTO] When this unit is destroyed, you can Remove this card from your graveyard. If you do so, then target 1 unit from your energy zone with a total cost of 6 or less and place it on your side of the field as Rest.</text>
+			<prop>
+				<type>Unit/Buster - Dragon</type>
+				<maintype>Unit</maintype>
+				<manacost>3[Red] 6[Colourless]</manacost>
+				<cmc>9</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>11000/2</pt>
+			</prop>
+		 <set rarity="SR" num="A-B1-86" picurl="https://buildlabo.com/card/large/41.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Badratos, Wrath of the Raging Flames</name>
+		 <text>[CONT] This unit cannot be targeted by your opponent except by your opponent's commands that are played as triggers.
+Territory (Dragonewt King): [ACT] (Normal/Put this unit in your energy zone as Rest) Target 1 non-"Shapeshifter" unit from your energy zone with a total cost of 9 or less  and place it on your side of the field.</text>
+			<prop>
+				<type>Unit/Ace - Human/Dragon/Shapeshifter</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Red] 4[Colourless]</manacost>
+				<cmc>6</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>6500/2</pt>
+			</prop>
+		 <set rarity="SR" num="A-B1-87" picurl="https://buildlabo.com/card/large/40.png">B1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Spirit of the Strong</name>
+		 <text>Choose 1 of the following:
+- Target 1 unit, for the rest of this turn, it gets +2000 Power.
+- Target 1 unit, if you have 8 or more energy, for the rest of this turn, it gets +5000 Power.</text>
+			<prop>
+				<type>Command - Grit</type>
+				<maintype>Command</maintype>
+				<manacost>1[Red]</manacost>
+				<cmc>1</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B1-88" picurl="https://buildlabo.com/card/large/39.png">B1</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Menace Laying Dormant in the Land</name>
+		 <text>Target 1 unit in your energy zone with a total cost equal or less than the amount of energy you have, place it on your side of the field.</text>
+			<prop>
+				<type>Command - Grit</type>
+				<maintype>Command</maintype>
+				<manacost>3[Red] 2[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B1-89" picurl="https://buildlabo.com/card/large/38.png">B1</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Earth Split Asunder</name>
+		 <text>Target 1 unit, put it in the energy zone as Rest</text>
+			<prop>
+				<type>Command/Shot - Grit</type>
+				<maintype>Command</maintype>
+				<manacost>2[Red] 3[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+			</prop>
+		 <set rarity="R" num="A-B1-90" picurl="https://buildlabo.com/card/large/37.png">B1</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>The Thickets That Devour</name>
+		 <text>Target 1 unit with a total cost of 4 or less, put it in the energy zone as Rest.</text>
+			<prop>
+				<type>Command/Shot - Grit</type>
+				<maintype>Command</maintype>
+				<manacost>2[Red]</manacost>
+				<cmc>2</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B1-91" picurl="https://buildlabo.com/card/large/36.png">B1</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Primitive Dinner</name>
+		 <text>Put the top card of your deck in your energy zone as Rest.</text>
+			<prop>
+				<type>Command - Grit</type>
+				<maintype>Command</maintype>
+				<manacost>2[Red]</manacost>
+				<cmc>2</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+			</prop>
+		 <set rarity="R" num="A-B1-92" picurl="https://buildlabo.com/card/large/35.png">B1</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<!-- Booster 2 -->
+	
+	<card>
+		 <name>The Great Tower of Ordeals</name>
+		 <text>[ACT] (Normal) Reveal the top 2 cards of your deck. Choose up to 1 Buster card from among them and put it in your hand, put the rest in your graveyard. You can only activate this ability once per turn.</text>
+			<prop>
+				<type>Black Territory</type>
+				<Title>Seven Deadly Sins: Greed</Title>
+				<maintype>Territory</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity> 
+			</prop>
+		 <set rarity="N" num="A-B2-01" picurl="https://buildlabo.com/card/large/136.png">B2</set>
+		 <tablerow>1</tablerow>
+		 <related>Bloom, Soul Gambler</related>
+	</card>
+	
+	<card>
+		 <name>Ejection Bouncer</name>
+		 <text>[AUTO] When this unit is destroyed, target 1 of your opponent's non-Ace and non-Buster units. Destroy it.</text>
+			<prop>
+				<type>Unit - Undead</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Black] 6[Colourless]</manacost>
+				<cmc>7</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>7000/2</pt>
+			</prop>
+		 <set rarity="N" num="A-B2-02" picurl="https://buildlabo.com/card/large/137.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Expendable Member</name>
+		 <text>[AUTO] When this unit is placed, you can discard 1 Buster card. If you do so, target 1 of your opponent's units, for the rest of this turn, it gets -5000 Power.</text>
+			<prop>
+				<type>Unit - Human</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Black] 3[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>3000/1</pt>
+			</prop>
+		 <set rarity="R" num="A-B2-03" picurl="https://buildlabo.com/card/large/138.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Cursed Doll</name>
+		 <text>[AUTO] When this unit is placed from the graveyard, target 1 of your opponent's units. It gets -4000 Power for the rest of this turn</text>
+			<prop>
+				<type>Unit - Fetish</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Black]</manacost>
+				<cmc>2</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>2500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B2-04" picurl="https://buildlabo.com/card/large/139.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Galfan, Grey Boar</name>
+		 <text>[AUTO] When this unit is placed, you can put the frontmost card of your life in the graveyard. If you do so, draw 1 card.
+Territory: +3000 Power.</text>
+			<prop>
+				<type>Unit/Buster - Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Black] 5[Colourless]</manacost>
+				<cmc>7</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>7500/2</pt>
+			</prop>
+		 <set rarity="N" num="A-B2-05" picurl="https://buildlabo.com/card/large/140.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Aria, Blood Feud</name>
+		 <text>[CONT] This unit can also attack units in Stand. 
+Territory: +3000 Power.</text>
+			<prop>
+				<type>Unit/Buster - Undead</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Black] 1[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>4000/1</pt>
+			</prop>
+		 <set rarity="UR" num="A-B2-06" picurl="https://buildlabo.com/card/large/141.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Bertorga, Black Sword Dragon</name>
+		 <text>[ACT] (Quick/Remove 2 cards from your graveyard) For the rest of this turn, this unit gets +1000 Power. This ability can only be activated once per turn.
+Territory:  [AUTO] When this unit is placed from hand, you can discard 1 Buster card. If you do so, target up to 2 of your opponent's units, for the rest of this turn, they get -7000 Power.</text>
+			<prop>
+				<type>Unit/Buster - Dragon</type>
+				<maintype>Unit</maintype>
+				<manacost>3[Black] 3[Colourless]</manacost>
+				<cmc>6</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>6500/2</pt>
+			</prop>
+		 <set rarity="SR" num="A-B2-07" picurl="https://buildlabo.com/card/large/142.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Mentis, Witch Who Dances With Death</name>
+		 <text>Territory: [AUTO] When this unit is placed, target 1 non-"Taboo" Black unit in your graveyard with total cost of 3 or less. You can discard 1 card, and if you do so, place the targeted unit on your side of the field. At the start of the End Phase, destroy that unit.</text>
+			<prop>
+				<type>Unit/Buster - Demon/Taboo</type>
+				<maintype>Unit</maintype>
+				<manacost>3[Black] 3[Colourless]</manacost>
+				<cmc>6</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>7000/2</pt>
+			</prop>
+		 <set rarity="SR" num="A-B2-08" picurl="https://buildlabo.com/card/large/143.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>String Predator</name>
+		 <text>[Decoy]
+(Decoy: If this unit is in Rest, your opponent can only attack this unit or other units with Decoy that are in Rest)</text>
+			<prop>
+				<type>Unit - Demon</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Black] 4[Colourless]</manacost>
+				<cmc>6</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>7000/2</pt>
+			</prop>
+		 <set rarity="R" num="A-B2-09" picurl="https://buildlabo.com/card/large/144.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Unukhalf, Revived from their Shell</name>
+		 <text>Territory: [AUTO] (Quick/Discard 1 card) For the rest of this turn, when this unit is destroyed, place it from your graveyard as Rest.</text>
+			<prop>
+				<type>Unit/Buster - Demon</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Black] 3[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>5000/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B2-10" picurl="https://buildlabo.com/card/large/145.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Drainage Walker</name>
+		 <text>[ACT] (Normal/1 [Black]) Target 1 of your opponent's unit, it gets -2000 Power for the rest of this turn. This ability can only be activated once per turn.</text>
+			<prop>
+				<type>Unit - Undead</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Black] 4[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>5500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B2-11" picurl="https://buildlabo.com/card/large/146.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Necroartist</name>
+		 <text>[AUTO] When this unit is destroyed, target 1 non-Taboo unit in your graveyard with a total cost of 2 or less. You can discard 1 card and, if you do so, place the targeted unit on your side of the field.</text>
+			<prop>
+				<type>Unit - Human/Taboo</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Black] 1[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>2000/1</pt>
+			</prop>
+		 <set rarity="R" num="A-B2-12" picurl="https://buildlabo.com/card/large/147.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Guiltab, Blasting</name>
+		 <text></text>
+			<prop>
+				<type>Unit - Demon</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Black] 7[Colourless]</manacost>
+				<cmc>8</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>9000/2</pt>
+			</prop>
+		 <set rarity="N" num="A-B2-13" picurl="https://buildlabo.com/card/large/148.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Butcher Skeleton</name>
+		 <text>[AUTO] When this unit is placed, you can put the top 2 cards of your deck in the graveyard. If you do so, this unit gains +2000 Power for the rest of this turn.</text>
+			<prop>
+				<type>Unit - Undead</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Black] 3[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>3500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B2-14" picurl="https://buildlabo.com/card/large/149.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Marrow Punisher</name>
+		 <text>[AUTO] When this unit battles, destroy it at the end of that battle.</text>
+			<prop>
+				<type>Unit - Undead</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Black] 2[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>5000/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B2-15" picurl="https://buildlabo.com/card/large/150.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Venegeance</name>
+		 <text>Target 1 of your opponent's units that dealt damage to you during this turn. Destroy it.</text>
+			<prop>
+				<type>Command - Strife</type>
+				<maintype>Command</maintype>
+				<manacost>2[Black]</manacost>
+				<cmc>2</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B2-16" picurl="https://buildlabo.com/card/large/151.png">B2</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Dimensional Window</name>
+		 <text>Target 1 unit in your graveyard. Return it to the hand.</text>
+			<prop>
+				<type>Command - Magic</type>
+				<maintype>Command</maintype>
+				<manacost>2[Black]</manacost>
+				<cmc>2</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B2-17" picurl="https://buildlabo.com/card/large/152.png">B2</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Roulette of Red Blood and Black Depravity</name>
+		 <text>Target 1 of your opponent's units, it gets -5000 Power for the rest of this turn. If your life is in the Red Zone, target 1 unit in your graveyard with a total cost of 3 or less, return it to the hand.</text>
+			<prop>
+				<type>Command/Shot - Magic</type>
+				<maintype>Command</maintype>
+				<manacost>3[Black]</manacost>
+				<cmc>3</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+			</prop>
+		 <set rarity="R" num="A-B2-18" picurl="https://buildlabo.com/card/large/153.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Manifestations of the Spirit of Research</name>
+		 <text>Target 1 of your opponent's units in Stand with a total cost of 5 or less. Destroy it.</text>
+			<prop>
+				<type>Command/Shot - Magic</type>
+				<maintype>Command</maintype>
+				<manacost>2[Black]</manacost>
+				<cmc>2</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B2-19" picurl="https://buildlabo.com/card/large/154.png">B2</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Brilliant Downfall</name>
+		 <text>Destroy all units. If 5 or more units were destroyed by this effect, target 1 non-Buster unit in your graveyard and place it on your side of the field as Rest.</text>
+			<prop>
+				<type>Command - Magic</type>
+				<maintype>Command</maintype>
+				<manacost>4[Black] 3[Colourless]</manacost>
+				<cmc>7</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+			</prop>
+		 <set rarity="R" num="A-B2-20" picurl="https://buildlabo.com/card/large/155.png">B2</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Underground Weapons Storehouse "Arsenal Fort"</name>
+		 <text>[AUTO]: When you draw a card, do one of the following depending on the amount of cards you have drawn this turn:
+2: Target up to 1 unit, deal it 2000 Damage.
+3: Target up to 1 unit, deal it 3000 Damage.
+4: Target up to 1 unit, deal it 10000 Damage. For the rest of this turn, when the target unit is destroyed, it is Removed instead.
+(If you draw 4 cards at once, perform all of the above)</text>
+			<prop>
+				<type>Blue Territory</type>
+				<Title>Hoodlum</Title>
+				<maintype>Territory</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B2-21" picurl="https://buildlabo.com/card/large/156.png">B2</set>
+		 <tablerow>1</tablerow>
+	</card>
+	
+	<card>
+		 <name>Yolanda, Regiment-Destroying Artillery "Agneyastra"</name>
+		 <text>[AUTO] When this unit is placed, draw 1 card.</text>
+			<prop>
+				<type>Unit - Human/Tenos</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Blue] 4[Colourless]</manacost>
+				<cmc>6</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>6000/2</pt>
+			</prop>
+		 <set rarity="R" num="A-B2-22" picurl="https://buildlabo.com/card/large/157.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Lucia, Cowardly Ranger</name>
+		 <text>[AUTO] When placed, Scout 1
+(Scout 1: Look at the top card of your deck, place it on the top or bottom of the deck.)</text>
+			<prop>
+				<type>Unit - Human/Grad</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Blue] 1[Colourless]</manacost>
+				<cmc>2</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>2500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B2-23" picurl="https://buildlabo.com/card/large/158.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Solarm, Dragonmech</name>
+		 <text>Territory:  [AUTO] When this unit is placed, you can pay (1 [Blue]). If you do so, draw 2 cards then discard 2 cards.
+Territory: [ACT] (Normal/Remove 2 Command cards from your graveyard) Target 1 unit, deal it 3000 Damage. This ability can only be activated once per turn.</text>
+			<prop>
+				<type>Unit/Buster - Dragon</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Blue] 3 [Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>7500/1</pt>
+			</prop>
+		 <set rarity="R" num="A-B2-24" picurl="https://buildlabo.com/card/large/159.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Nora, Knowledge and Insight "Gríðarvöl"</name>
+		 <text>[ACT] (Normal/1 [Blue], Rest this unit) Target 1 unit, its Power becomes 8000 for the rest of this turn.</text>
+			<prop>
+				<type>Unit - Human/Tenos</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Blue] 2[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>3500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B2-25" picurl="https://buildlabo.com/card/large/160.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Sandra, Blitzkrieg "Sharanga"</name>
+		 <text>[Blitz]
+(Blitz: This unit deals battle damage first)</text>
+			<prop>
+				<type>Unit - Human/Tenos</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Blue] 3[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>4500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B2-26" picurl="https://buildlabo.com/card/large/161.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>GWV-060 Grand Peak</name>
+		 <text>[Decoy]
+[AUTO] When this unit is placed, draw 1 card and then discard 1 card.
+(Decoy: If this unit is in Rest, your opponent can only attack this unit or other units with Decoy that are in Rest)</text>
+			<prop>
+				<type>Unit - Ordnance/Grad</type>
+				<maintype>Unit</maintype>
+				<manacost>3[Blue]</manacost>
+				<cmc>3</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>3000/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B2-27" picurl="https://buildlabo.com/card/large/162.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>GPM-083 Rosa, Gigacommand</name>
+		 <text>[ACT] (Normal/Discard 3 cards) For the rest of this turn, this unit gets +1 Hit.
+Territory: [AUTO] When this unit is placed, you can discard your entire hand. If you discarded at least 1 card by this effect, draw the same amount of cards as the amount cards you discarded + 1.</text>
+			<prop>
+				<type>Unit/Buster - Human/Grad</type>
+				<maintype>Unit</maintype>
+				<manacost>3[Blue] 4[Colourless]</manacost>
+				<cmc>7</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>8000/2</pt>
+			</prop>
+		 <set rarity="UR" num="A-B2-28" picurl="https://buildlabo.com/card/large/163.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Keyra, Stagnant Crusher</name>
+		 <text>[CONT] If all of your energy is in Rest, this unit gets +3000 Power.
+Territory: [AUTO] When this unit is placed, you can pay (1 [Blue], 1 [Colourless]). If you do so, target 1 unit with [Decoy], deal it 10000 Damage.</text>
+			<prop>
+				<type>Unit/Buster - Human/Grad</type>
+				<maintype>Unit</maintype>
+				<manacost>3[Blue] 1[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>3000/1</pt>
+			</prop>
+		 <set rarity="R" num="A-B2-29" picurl="https://buildlabo.com/card/large/164.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Natalia, Dearest Medic</name>
+		 <text>[AUTO] When this unit is placed, if your life is in the Red Zone, you can look at the frontmost card in your life zone: You can then put it in the graveyard. If you do so, shuffle your deck and put the top card of your deck to the front of your life zone.</text>
+			<prop>
+				<type>Unit - Human/Grad</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Blue] 3[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>6000/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B2-30" picurl="https://buildlabo.com/card/large/165.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>TX-05 Rowen, Flashing Radiant Spear "Areadbhair"</name>
+		 <text>Territory: +3000 Power.</text>
+			<prop>
+				<type>Unit/Buster - Human/Tenos</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Blue] 4[Colourless]</manacost>
+				<cmc>6</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>7500/2</pt>
+			</prop>
+		 <set rarity="N" num="A-B2-31" picurl="https://buildlabo.com/card/large/166.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Veronica, Drunk Grappler</name>
+		 <text>[ACT] (Normal/Rest this unit) Draw 1 card
+Territory:  +3000 Power</text>
+			<prop>
+				<type>Unit/Buster - Human/Grad</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Blue] 3[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>4000/1</pt>
+			</prop>
+		 <set rarity="SR" num="A-B2-32" picurl="https://buildlabo.com/card/large/167.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Rebecca, Shooter for the Failed</name>
+		 <text>[Blitz]
+[AUTO] When this unit attacks, draw 1 card then discard 1 card.
+Territory (Hoodlum): [AUTO] At the start of your End Phase, if this unit is in Rest, draw 1 card.
+(Blitz: This unit deals battle damage first)</text>
+			<prop>
+				<type>Unit/Ace - Human/Grad</type>
+				<Title>Hoodlum</Title>
+				<maintype>Unit</maintype>
+				<manacost>2[Blue] 3[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>4500/1</pt>
+			</prop>
+		 <set rarity="SR" num="A-B2-35" picurl="https://buildlabo.com/card/large/168.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Melanie, Instant Draw "Raikiri"</name>
+		 <text>[ACT] (Normal/Rest this unit) Target 1 unit, deal it 3000 Damage.</text>
+			<prop>
+				<type>Unit - Human/Tenos</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Blue] 1[Colourless]</manacost>
+				<cmc>2</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>2000/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B2-34" picurl="https://buildlabo.com/card/large/169.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>The Value of Life</name>
+		 <text>Target 1 unit that has received damage this turn. Scout 1 and deal it 10000 Damage.
+(Scout 1: Look at the top card of your deck, place it on the top or bottom of the deck.)</text>
+			<prop>
+				<type>Command - Strife</type>
+				<maintype>Command</maintype>
+				<manacost>2[Blue]</manacost>
+				<cmc>2</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B2-35" picurl="https://buildlabo.com/card/large/170.png">B2</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Forced Connection</name>
+		 <text>Play up to 1 Command card from your hand with total cost of 5 or less without paying its cost.</text>
+			<prop>
+				<type>Command/Shot - Ordnance</type>
+				<maintype>Command</maintype>
+				<manacost>2[Blue] 1[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+			</prop>
+		 <set rarity="R" num="A-B2-36" picurl="https://buildlabo.com/card/large/171.png">B2</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Quick Reload</name>
+		 <text>Draw 2 cards, then discard 1 card.</text>
+			<prop>
+				<type>Command/Shot - Ordnance</type>
+				<maintype>Command</maintype>
+				<manacost>2[Blue]</manacost>
+				<cmc>2</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B2-37" picurl="https://buildlabo.com/card/large/172.png">B2</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>The Height of Idleness</name>
+		 <text>For the rest of this turn, all of your opponent's units get -1 hit. If your life is in the Red Zone, for the rest of this turn, all Damage dealt by your opponent's units is nullified.</text>
+			<prop>
+				<type>Command - Strife</type>
+				<maintype>Command</maintype>
+				<manacost>1[Blue] 4[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B2-38" picurl="https://buildlabo.com/card/large/173.png">B2</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Unexpected Shock Attack</name>
+		 <text>Target 1 unit. Deal it 5000 Damage.</text>
+			<prop>
+				<type>Command - Strife</type>
+				<maintype>Command</maintype>
+				<manacost>1[Blue]</manacost>
+				<cmc>1</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B2-39" picurl="https://buildlabo.com/card/large/174.png">B2</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Plasma Coffin</name>
+		 <text>Deal 7000 Damage to all units in Stand. If this command is played as a trigger, after it resolves, put this card in your hand instead of the graveyard.</text>
+			<prop>
+				<type>Command/Shot - Ordnance</type>
+				<maintype>Command</maintype>
+				<manacost>2[Blue] 3[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+			</prop>
+		 <set rarity="R" num="A-B2-40" picurl="https://buildlabo.com/card/large/175.png">B2</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Epitaph of Judgement</name>
+		 <text>[AUTO] When your unit with [Judgement] gets destroyed, you gain 1 Judgement Counter.
+[ACT] (Normal/Remove 2 Judgement Counters) Choose 1 of the following. This ability can only be activated once per turn. 
+- Reveal the top card of your deck. If it is a unit with [Judgement], put it in your hand. Otherwise, put it in your graveyard.
+- For the rest of this turn, all of your units get +3000 Power.</text>
+			<prop>
+				<type>White Territory</type>
+				<Title>Adjudicator</Title>
+				<maintype>Territory</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B2-41" picurl="https://buildlabo.com/card/large/176.png">B2</set>
+		 <tablerow>1</tablerow>
+		 <related>Margeria, Angel of Judgement</related>
+	</card>
+	
+	<card>
+		 <name>Narsha, Spirit of Corollas</name>
+		 <text>[Judgement]
+Territory: [ACT] (Normal/Remove 2 Judgement Counters) For this turn, when this unit is destroyed, place it from your graveyard as Rest.</text>
+			<prop>
+				<type>Unit/Buster - Spirit</type>
+				<maintype>Unit</maintype>
+				<manacost>1[White] 2[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>4500/1</pt>
+			</prop>
+		 <set rarity="SR" num="A-B2-42" picurl="https://buildlabo.com/card/large/177.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Zacaria, Angel of Teachings</name>
+		 <text>[Decoy]
+(Decoy: If this unit is in Rest, your opponent can only attack this unit or other units with Decoy that are in Rest)</text>
+			<prop>
+				<type>Unit - Angel</type>
+				<maintype>Unit</maintype>
+				<manacost>1[White] 4[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>5500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B2-43" picurl="https://buildlabo.com/card/large/178.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Urraca, Angel of Discipline</name>
+		 <text>[Judgement: When your opponent places a creature, you gain 1 Judgement Counter] 
+[CONT] If you have 3 or more Judgement Counters, this unit gets +3000 Power.</text>
+			<prop>
+				<type>Unit - Angel</type>
+				<maintype>Unit</maintype>
+				<manacost>2[White] 2[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>4000/1</pt>
+			</prop>
+		 <set rarity="R" num="A-B2-44" picurl="https://buildlabo.com/card/large/179.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Perouse, Angel of Returnal</name>
+		 <text>Territory: [ACT] (Quick/2 [White], Put this unit on the bottom of your deck) Target 1 of your non-""Recurring"" units: return it to your hand, draw 1 card and then shuffle your deck.
+Territory: +3000 Power.</text>
+			<prop>
+				<type>Unit/Buster - Angel/Recurring</type>
+				<maintype>Unit</maintype>
+				<manacost>2[White] 2[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>4500/1</pt>
+			</prop>
+		 <set rarity="UR" num="A-B2-45" picurl="https://buildlabo.com/card/large/180.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Mooserook, Sacred Beast</name>
+		 <text></text>
+			<prop>
+				<type>Unit/Buster - Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>2[White] 5[Colourless]</manacost>
+				<cmc>7</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>8500/2</pt>
+			</prop>
+		 <set rarity="N" num="A-B2-46" picurl="https://buildlabo.com/card/large/181.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Munter, Sacred Beast</name>
+		 <text>[AUTO] When your opponent plays a command, return this unit to your hand.</text>
+			<prop>
+				<type>Unit - Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>1[White] 2[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>3000/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B2-47" picurl="https://buildlabo.com/card/large/182.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Parvinyl, Light Dragon of Good Omens</name>
+		 <text>[AUTO] When this unit is placed, for the rest of this turn, all of your units get +3000 Power.</text>
+			<prop>
+				<type>Unit - Dragon</type>
+				<maintype>Unit</maintype>
+				<manacost>1[White] 3[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>3000/1</pt>
+			</prop>
+		 <set rarity="SR" num="A-B2-48" picurl="https://buildlabo.com/card/large/183.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Quatre, Sacred Golem</name>
+		 <text></text>
+			<prop>
+				<type>Unit - Golem</type>
+				<maintype>Unit</maintype>
+				<manacost>1[White] 3[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>5000/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B2-49" picurl="https://buildlabo.com/card/large/184.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Cheerrice, Spirit of Cheers</name>
+		 <text>[ACT] (Normal/Rest this unit) Target 1 unit. For the rest of this turn, it gets +3000 Power.</text>
+			<prop>
+				<type>Unit - Spirit</type>
+				<maintype>Unit</maintype>
+				<manacost>1[White] 2[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>3000/1</pt>
+			</prop>
+		 <set rarity="R" num="A-B2-50" picurl="https://buildlabo.com/card/large/185.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Dargil, Angel of the Imperial Order</name>
+		 <text>[Judgement: When your opponent places a creature, you gain 1 Judgement Counter]
+[CONT] If you have 3 or more Judgement Counters, this unit gets +3000 Power.</text>
+			<prop>
+				<type>Unit - Angel</type>
+				<maintype>Unit</maintype>
+				<manacost>2[White] 4[Colourless]</manacost>
+				<cmc>6</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>6000/2</pt>
+			</prop>
+		 <set rarity="N" num="A-B2-51" picurl="https://buildlabo.com/card/large/186.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Rajama, Spirit of Ignition</name>
+		 <text>[Judgement: When your opponent places a creature, you gain 1 Judgement Counter]</text>
+			<prop>
+				<type>Unit - Spirit</type>
+				<maintype>Unit</maintype>
+				<manacost>2[White]</manacost>
+				<cmc>2</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>3000/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B2-52" picurl="https://buildlabo.com/card/large/187.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Stilia, Spirit of Icicles</name>
+		 <text>Territory: [AUTO] When this unit is placed, for the rest of this turn it gets +3000 Power.</text>
+			<prop>
+				<type>Unit/Buster - Spirit</type>
+				<maintype>Unit</maintype>
+				<manacost>1[White] 3[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>6000/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B2-53" picurl="https://buildlabo.com/card/large/188.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Helmina, Angel of Forgetfulness</name>
+		 <text>[Judgement: When your opponent places a creature, you gain 1 Judgement Counter]
+Territory: [AUTO] When this unit is placed, you can remove 1 Judgement Counter. If you do so, target 1 unit: it loses its original abilities for the rest of this turn. (Original abilities are the abilities written on that unit's card)</text>
+			<prop>
+				<type>Unit/Buster - Angel</type>
+				<maintype>Unit</maintype>
+				<manacost>3[White] 2[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>6000/1</pt>
+			</prop>
+		 <set rarity="R" num="A-B2-54" picurl="https://buildlabo.com/card/large/189.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Painful Stalemate</name>
+		 <text>Target 1 of your units and 1 of your opponent's units. Return them to the hand.</text>
+			<prop>
+				<type>Command - Strife</type>
+				<maintype>Command</maintype>
+				<manacost>1[White] 1[Colourless]</manacost>
+				<cmc>2</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B2-55" picurl="https://buildlabo.com/card/large/190.png">B2</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Angelic Order</name>
+		 <text>Choose 1 of the following:
+- Target 1 unit in Rest. Return it to the hand. 
+- You can remove 2 Judgement Counters. If you do so, reveal the top card of your deck. If it is a unit with [Judgement], place it on your side of the field. Otherwise, put it in your graveyard.</text>
+			<prop>
+				<type>Command/Shot - Reason</type>
+				<maintype>Command</maintype>
+				<manacost>2[White] 2[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+			</prop>
+		 <set rarity="R" num="A-B2-56" picurl="https://buildlabo.com/card/large/191.png">B2</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>A Distortion that Shall Not Be Overlooked</name>
+		 <text>Choose 1 of the following:
+- Target 1 unit with [Judgement], it gets +3000 Power for the rest of this turn.
+- If a card from your life zone was put in the graveyard this turn, you gain 1 Judgement Counter.</text>
+			<prop>
+				<type>Command/Shot - Strife</type>
+				<maintype>Command</maintype>
+				<manacost>1[White]</manacost>
+				<cmc>1</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B2-57" picurl="https://buildlabo.com/card/large/192.png">B2</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Starlight Shower</name>
+		 <text>Return all units with a total cost of 4 or less to the hand. If your life is in the Red Zone, draw 1 card.</text>
+			<prop>
+				<type>Command/Shot - Reason</type>
+				<maintype>Command</maintype>
+				<manacost>2[White] 2[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B2-58" picurl="https://buildlabo.com/card/large/193.png">B2</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Great Decree of Conquest</name>
+		 <text>For the rest of this turn, all of your units get +3000 Power.</text>
+			<prop>
+				<type>Command - Strife</type>
+				<maintype>Command</maintype>
+				<manacost>1[White] 2[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B2-59" picurl="https://buildlabo.com/card/large/194.png">B2</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Gust Warning</name>
+		 <text>Target 1 unit. Put it on the bottom of the deck.</text>
+			<prop>
+				<type>Command - Reason</type>
+				<maintype>Command</maintype>
+				<manacost>3[White] 3[Colourless]</manacost>
+				<cmc>6</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+			</prop>
+		 <set rarity="R" num="A-B2-60" picurl="https://buildlabo.com/card/large/195.png">B2</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Fort Under the Snow-Covered Lava</name>
+		 <text>[AUTO] When your unit with a total cost of 5 or less is destroyed, put it from your graveyard in your energy zone as Rest
+[ACT] (Normal/3[Red] 3[Colourless]) For the rest of this turn, all of your units with a total cost of 5 or less get Hit +1. This ability can only be activated once per turn.</text>
+			<prop>
+				<type>Red Territory</type>
+				<Title>Great Barbarian</Title>
+				<maintype>Territory</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B2-61" picurl="https://buildlabo.com/card/large/196.png">B2</set>
+		 <tablerow>1</tablerow>
+		 <related>Bertiga, The Frontier's Bravest</related>
+	</card>
+	
+	<card>
+		 <name>Beria, Spirited Wolfhound</name>
+		 <text>Territory: [CONT] If you have 8 or more energy, this unit gets +5000 Power.</text>
+			<prop>
+				<type>Unit/Buster - Human/Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Red] 2[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>4500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B2-62" picurl="https://buildlabo.com/card/large/197.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Goltpazos, Radiant Flame Dragon</name>
+		 <text></text>
+			<prop>
+				<type>Unit - Dragon</type>
+				<maintype>Unit</maintype>
+				<manacost>3[Red] 7[Colourless]</manacost>
+				<cmc>10</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>12000/3</pt>
+			</prop>
+		 <set rarity="N" num="A-B2-63" picurl="https://buildlabo.com/card/large/198.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Beard, Furious Large Bear</name>
+		 <text>[Berserk]
+Territory: [AUTO] When this unit is placed from the energy zone, target up to 1 of your opponent's units with a total cost of 5 or less: put it in the energy zone as Rest. If you do so, each player draws 1 card.
+(Berserk: This unit must attack the player or active decoy if it is able to)</text>
+			<prop>
+				<type>Unit/Buster - Human/Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>3[Red] 4[Colourless]</manacost>
+				<cmc>7</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>9000/2</pt>
+			</prop>
+		 <set rarity="R" num="A-B2-64" picurl="https://buildlabo.com/card/large/199.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Soltiga, Vigorous White Tiger</name>
+		 <text>[CONT] During your turn, if you have 8 or more energy, this unit gets +5000 Power. 
+Territory: [AUTO] When this unit wins a battle, Stand this unit. Then, this unit loses this effect for the rest of this turn.</text>
+			<prop>
+				<type>Unit/Buster - Human/Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>3[Red] 3[Colourless]</manacost>
+				<cmc>6</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>6000/2</pt>
+			</prop>
+		 <set rarity="UR" num="A-B2-65" picurl="https://buildlabo.com/card/large/200.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Snowmelt Worm</name>
+		 <text>[AUTO] When this unit is placed, you can put the top card of your deck in your energy zone as Rest.</text>
+			<prop>
+				<type>Unit - Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Red] 3[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>5000/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B2-66" picurl="https://buildlabo.com/card/large/201.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Leptonica, Berserker of the Snowfield</name>
+		 <text>[Berserk]
+Territory:  [ACT] (Normal/2 [Red]). This ability can only be activated while this card is in your energy zone. If there is no "Leptonica, Berserker of the Snowfield" on your side of the field, place this card on your side of the field. At the start of the End Phase, destroy this unit.
+(Berserk: This unit must attack the player or active Decoy if it is able to)</text>
+			<prop>
+				<type>Unit/Buster - Human/Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>4[Red]</manacost>
+				<cmc>4</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>6000/1</pt>
+			</prop>
+		 <set rarity="SR" num="A-B2-67" picurl="https://buildlabo.com/card/large/202.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Arash, Thousand Needles Squire</name>
+		 <text>[CONT] If you have 6 or more energy, this unit gets +2000 Power.</text>
+			<prop>
+				<type>Unit - Human/Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Red]</manacost>
+				<cmc>2</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>2000/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B2-68" picurl="https://buildlabo.com/card/large/203.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Aquila, Commander of the Skies</name>
+		 <text>[Berserk]
+[CONT] During your turn, all of your units with [Berserk] get +2000 Power
+(Berserk: This unit must attack the player or active Decoy if it is able to)</text>
+			<prop>
+				<type>Unit - Human/Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Red] 2[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>4500/1</pt>
+			</prop>
+		 <set rarity="R" num="A-B2-69" picurl="https://buildlabo.com/card/large/204.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Akull Ruf, Hunter-Soldier of the Tundra</name>
+		 <text>[Berserk]
+(This unit must attack the player or active Decoy if it is able to)</text>
+			<prop>
+				<type>Unit - Human/Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Red] 2[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>5000/1</pt>
+			</prop>
+		 <set rarity="R" num="A-B2-70" picurl="https://buildlabo.com/card/large/205.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Burning Penguins</name>
+		 <text>[CONT] For each energy you have, this unit gets +1000 Power.
+Territory: [CONT] For each 5 energy you have, this unit gets +1 Hit.</text>
+			<prop>
+				<type>Unit/Buster - Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Red] 3[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B2-71" picurl="https://buildlabo.com/card/large/206.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Bertiga, The Frontier's Bravest</name>
+		 <text>[AUTO] When this unit is placed, target up to 2 of your energy, Stand them
+Territory: (Great Barbarian) [CONT] If you have 6 or more energy, this unit gets +2000 Power
+Territory: (Great Barbarian) [CONT] If you have 8 or more energy, this unit gets +1 Hit</text>
+			<prop>
+				<type>Unit/Ace - Human/Beast</type>
+				<Title>Great Barbarian</Title>
+				<maintype>Unit</maintype>
+				<manacost>2[Red] 3[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>5000/1</pt>
+			</prop>
+		 <set rarity="SR" num="A-B2-72" picurl="https://buildlabo.com/card/large/207.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Yelti, Snow's Phantom </name>
+		 <text>[AUTO] When this unit is placed, target 1 of your opponent's units, Rest it.</text>
+			<prop>
+				<type>Unit - Human/Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Red] 5[Colourless]</manacost>
+				<cmc>7</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>7500/2</pt>
+			</prop>
+		 <set rarity="N" num="A-B2-73" picurl="https://buildlabo.com/card/large/208.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Squatty, Tiny Squirrel of the Harvest</name>
+		 <text>[Decoy]
+(Decoy: If this unit is in Rest, your opponent can only attack this unit or other units with Decoy that are in Rest)</text>
+			<prop>
+				<type>Unit - Human/Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Red] 2[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>3500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B2-74" picurl="https://buildlabo.com/card/large/209.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Bagena, The Strongest Arm of the Wilderness</name>
+		 <text>[Blitz] [Berserk] 
+(Blitz: This unit deals battle damage first) 
+(Berserk: This unit must attack the player or active Decoy if it is able to)</text>
+			<prop>
+				<type>Unit - Human/Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Red] </manacost>
+				<cmc>2</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>4000/1</pt>
+			</prop>
+		 <set rarity="N" num="A-B2-75" picurl="https://buildlabo.com/card/large/210.png">B2</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Strange Encounter</name>
+		 <text>Choose 1 of the following:
+- Target 1 of your units, it gains +3000 Power for the rest of this turn. Then, target up to 1 of your opponent's units, the targeted units deal Damage to each other equal to their power.
+- Target 1 of your opponent's units with [Decoy], put it in the energy zone as Rest.</text>
+			<prop>
+				<type>Command/Shot - Calamity</type>
+				<maintype>Command</maintype>
+				<manacost>2[Red] 2[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+			</prop>
+		 <set rarity="R" num="A-B2-76" picurl="https://buildlabo.com/card/large/211.png">B2</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Fire Breath</name>
+		 <text>Rest all of your opponent's units. Then, target 1 of your units: it gains +2000 Power for each unit rested by this effect for the rest of this turn.</text>
+			<prop>
+				<type>Command/Shot - Grit</type>
+				<maintype>Command</maintype>
+				<manacost>1[Red] 2[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B2-77" picurl="https://buildlabo.com/card/large/212.png">B2</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Wish of Purification</name>
+		 <text>Target 1 of your opponent's units with total cost of 4 or less, put it in the energy zone. If your Territory is open, put the top card of your deck in the energy zone.</text>
+			<prop>
+				<type>Command/Shot - Grit</type>
+				<maintype>Command</maintype>
+				<manacost>2[Red] 1[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+			</prop>
+		 <set rarity="R" num="A-B2-78" picurl="https://buildlabo.com/card/large/213.png">B2</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>The Ferocious Ones Departing for War</name>
+		 <text>Choose 1 of the following: 
+- Target 1 unit in your energy zone with a total cost of 5 or less. Place it on your side of the field. 
+- Target 2 units in your energy zone with a total cost of 5 or less and with [Berserk]. Place them on your side of the field.</text>
+			<prop>
+				<type>Command - Grit</type>
+				<maintype>Command</maintype>
+				<manacost>2[Red] 3[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B2-79" picurl="https://buildlabo.com/card/large/214.png">B2</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Worm Hunting</name>
+		 <text>Target 1 unit. For the rest of this turn, it gets +3000 Power. Then, if you have 8 or more energy, for the rest of this turn,  it gains the following ability: ( [AUTO] When this unit wins a battle, Stand this unit and then this unit loses this ability ).</text>
+			<prop>
+				<type>Command - Wit</type>
+				<maintype>Command</maintype>
+				<manacost>1[Red]</manacost>
+				<cmc>1</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-B2-80" picurl="https://buildlabo.com/card/large/215.png">B2</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	
+	<!-- Madoka -->
+
+
+	<card>
+		 <name>Mami Tomoe, Magical Silver Bullet</name>
+		 <text>Territory: (Puella Magi) [AUTO] When this unit attacks, you can put the top card of your deck in the graveyard. If you put a Shot card, then deal damage to all of your opponent's units equal to the power of this unit.</text>
+			<prop>
+				<type>Unit/Ace/Buster - Mage</type>
+				<Title>Puella Magi</Title>
+				<maintype>Unit</maintype>
+				<manacost>1[White] 4[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>5000/1</pt>
+			</prop>
+		 <set rarity="SR" num="MM-TB1-25" picurl="https://64.media.tumblr.com/94e46c938af85b63ab484bde10bee82a/f4abc5795edd2fac-9c/s400x600/6333281ee81c0a6db4502bd9ab29039775e3144b.png">TB1</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<Promos>
+	<!-- Promos -->
+	
+	<card>
+		 <name>Eris, Starving for Love</name>
+		 <text>[AUTO] When this unit is destroyed by battle, you can pay 1[Black]. If you do, if the unit it battled had a total cost of 5 or less, destroy that unit.</text>
+			<prop>
+				<type>Unit - Demon</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Black] 1[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>2500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-PR-01" picurl="https://buildlabo.com/card/large/7.png">PR</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Converging Fire</name>
+		 <text>Target 1 unit, deal it 3000 Damage. Then you can change any amount of your energy to Rest. If you do so, deal 3000 Damage to the previous unit for every energy you changed to Rest.</text>
+			<prop>
+				<type>Command - Ordnance</type>
+				<maintype>Command</maintype>
+				<manacost>1[Blue]</manacost>
+				<cmc>1</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-PR-02" picurl="https://buildlabo.com/card/large/6.png">PR</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Kallista, Peakbagger</name>
+		 <text>[AUTO] When this unit is placed, look at the top 3 cards of your deck. If there is an "Observer" or Ace unit card among them, you can reveal it and put it to the top of your deck. Put the rest on the bottom of your deck in any order.</text>
+			<prop>
+				<type>Unit - Human/Grad</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Blue] 3[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>3500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-PR-03" picurl="https://buildlabo.com/card/large/5.png">PR</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Shining Mission</name>
+		 <text>If your territory isn't open, search your deck and life zone to reveal up to 1 Ace unit and put it in your hand. Return all of your life zone cards to the deck, shuffle your deck, and then put from the top of your deck into your life zone the same amount of cards that you previously returned into the deck.</text>
+			<prop>
+				<type>Command - Reason</type>
+				<maintype>Command</maintype>
+				<manacost>1[White] 4[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-PR-04" picurl="https://buildlabo.com/card/large/4.png">PR</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Valence, Brawny Warrior</name>
+		 <text>Territory: [AUTO] When this unit wins a battle, target 1 of your opponent's units with a total cost of 3 or less, put it in their energy zone as Rest.</text>
+			<prop>
+				<type>Unit/Buster - Human/Dragon</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Red] 6[Colourless]</manacost>
+				<cmc>8</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>9500/2</pt>
+			</prop>
+		 <set rarity="N" num="A-PR-05" picurl="https://buildlabo.com/card/large/3.png">PR</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Beltiega, Ennui's Assailant</name>
+		 <text>[AUTO] When this unit is placed from the graveyard, you can Rest this unit. If you do so, draw 1 card.
+Territory: +3000 Power.</text>
+			<prop>
+				<type>Unit - Demon</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Black] 3[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>4500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-PR-06" picurl="https://buildlabo.com/card/large/129.png">PR</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Abby, Endless Recycler "Ouroboros" </name>
+		 <text>[ACT] (Normal/Remove 1 card from your energy zone). Draw 1 card. This ability can only be activated once per turn.
+Territory: +3000 Power.</text>
+			<prop>
+				<type>Unit/Buster - Human/Grad</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Blue] 5[Colourless]</manacost>
+				<cmc>7</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>8000/2</pt>
+			</prop>
+		 <set rarity="N" num="A-PR-07" picurl="https://buildlabo.com/card/large/130.png">PR</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Philia, Spirit of Pure Love</name>
+		 <text>Territory: [AUTO] When this unit is placed from the deck, target 1 of your other units, it gets +3000 Power for the rest of the turn. At the start of the End Phase, Stand the chosen unit.</text>
+			<prop>
+				<type>Unit/Buster - Spirit</type>
+				<maintype>Unit</maintype>
+				<manacost>1[White] 1[Colourless]</manacost>
+				<cmc>2</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>3000/1</pt>
+			</prop>
+		 <set rarity="N" num="A-PR-08" picurl="https://buildlabo.com/card/large/216.png">PR</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Garrick, Heavy Curved Blade</name>
+		 <text>[AUTO] When this unit is placed, your opponent puts the top 2 cards of their deck into their energy zone as Rest</text>
+			<prop>
+				<type>Unit - Human/Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Red] 4[Colourless]</manacost>
+				<cmc>6</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>10000/2</pt>
+			</prop>
+		 <set rarity="N" num="A-PR-09" picurl="https://buildlabo.com/card/large/131.png">PR</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Dorfud, Furious Attacker</name>
+		 <text>[ACT] (Normal/8 Red): This unit gains +3 Hit for the rest of this turn.</text>
+			<prop>
+				<type>Unit - Human/Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>3[Red]</manacost>
+				<cmc>3</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>4000/1</pt>
+			</prop>
+		 <set rarity="N" num="A-PR-10" picurl="https://buildlabo.com/card/large/217.png">PR</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Code Black "#000000"</name>
+		 <text>Target 1 "Bloom, Soul Gambler" from your graveyard, put it to the top of your deck.</text>
+			<prop>
+				<type>Command - Challenger</type>
+				<maintype>Command</maintype>
+				<manacost>2[Black]</manacost>
+				<cmc>2</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+			</prop>
+		 <set rarity="N" num="A-PR-31" picurl="https://buildlabo.com/card/large/1.png">PR</set>
+		 <tablerow>3</tablerow>
+	</card>
+	
+	<card>
+		 <name>Matrauna, Multi-Assault Gunner "Aettartangi"</name>
+		 <text>[CONT] For each card in your hand, this unit gets +1000 Power.</text>
+			<prop>
+				<type>Unit - Human/Tenos</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Blue] 3[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>2000/1</pt>
+			</prop>
+		 <set rarity="N" num="A-PR-34" picurl="https://buildlabo.com/card/large/132.png">PR</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Mirgalba, Dragon of Destiny</name>
+		 <text>[ACT] (Normal/Rest any number of your white units whose total cost combined is 9 or more) You can only activate this ability while this card is in your hand: Place this unit from your hand. At the start of the end phase, destroy this unit.</text>
+			<prop>
+				<type>Unit - Dragon</type>
+				<maintype>Unit</maintype>
+				<manacost>3[White] 5[Colourless]</manacost>
+				<cmc>8</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>9000/2</pt>
+			</prop>
+		 <set rarity="N" num="A-PR-37" picurl="https://buildlabo.com/card/large/133.png">PR</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Amamiya, Black-Haired Vanguard</name>
+		 <text>[Berserk]
+[AUTO] When this attacking unit wins a battle, put the top card of your deck in your energy zone as Rest. Then, put 1 card from your energy zone in your graveyard.
+(Berserk: This unit must attack the player or active Decoy if it is able to)</text>
+			<prop>
+				<type>Unit - Human/Beast</type>
+				<maintype>Unit</maintype>
+				<manacost>1[Red] 3[Colourless]</manacost>
+				<cmc>4</cmc>
+				<colors>Red</colors>
+				<coloridentity>Red</coloridentity>
+				<pt>5500/1</pt>
+			</prop>
+		 <set rarity="N" num="A-PR-38" picurl="https://buildlabo.com/card/large/134.png">PR</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+  </cards>
+</cockatrice_carddatabase>
