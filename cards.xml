@@ -1182,7 +1182,7 @@ Territory: [AUTO] When this unit is placed, if all of your energy is at Rest, ta
 	
 	<card>
 		 <name>Claudia, Lead Striker</name>
-		 <text>[ACT] (Normal/1 Blue) Target 1 unit, deal it 3000 Damage. This ability can only be used once per turn.
+		 <text>[ACT] (Normal/1 [Blue]) Target 1 unit, deal it 3000 Damage. This ability can only be used once per turn.
 Territory (Brave Princess): [CONT] If all of your energy is in Rest, this unit cannot be attacked and gets +1 Hit.</text>
 			<prop>
 				<type>Unit/Ace - Human/Grad</type>
@@ -3562,6 +3562,22 @@ Territory: +3000 Power.</text>
 	</card>
 	
 	<card>
+		 <name>Barialk the Powerful</name>
+		 <text>[AUTO] When this unit is placed, you can pay (2 [Black]). If you do so, then target 1 of your opponent's units: For the rest of this turn, it gets -4000 Power.</text>
+			<prop>
+				<type>Unit/Buster - Demon</type>
+				<maintype>Unit</maintype>
+				<manacost>3[Black] 3[Colourless]</manacost>
+				<cmc>6</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+				<pt>6000/2</pt>
+			</prop>
+		 <set rarity="N" num="A-PR-33" picurl="https://64.media.tumblr.com/4ab51f6b50a276dcfb34ae6579e445e3/80264663998bd772-df/s400x600/e61690e049d266d4509f9206039e6d341b318dda.png">PR</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
 		 <name>Matrauna, Multi-Assault Gunner "Aettartangi"</name>
 		 <text>[CONT] For each card in your hand, this unit gets +1000 Power.</text>
 			<prop>
@@ -3574,6 +3590,38 @@ Territory: +3000 Power.</text>
 				<pt>2000/1</pt>
 			</prop>
 		 <set rarity="N" num="A-PR-34" picurl="https://buildlabo.com/card/large/132.png">PR</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Melaine, Deep Breaker</name>
+		 <text>Territory:  [CONT] If all of your energy is in Rest, this unit gets +5000 Power.</text>
+			<prop>
+				<type>Unit/Buster - Human/Grad</type>
+				<maintype>Unit</maintype>
+				<manacost>2[Blue] 4[Colourless]</manacost>
+				<cmc>6</cmc>
+				<colors>Blue</colors>
+				<coloridentity>Blue</coloridentity>
+				<pt>7000/2</pt>
+			</prop>
+		 <set rarity="N" num="A-PR-35" picurl="https://64.media.tumblr.com/d43a3801bfd164c25fee73b7bbe0e2cd/80264663998bd772-6e/s400x600/4ad2b060d5d2dc1b3d96be4554d37be417ce27a3.png">PR</set>
+		 <tablerow>2</tablerow>
+	</card>
+	
+	<card>
+		 <name>Leonora, Angel of Prosperity</name>
+		 <text>Territory:  [AUTO] When this unit is targeted by your unit's effects, for the rest of this turn, all of your other units get +6000 Power. This ability can only be executed during your turn and only once per turn. </text>
+			<prop>
+				<type>Unit/Buster - Angel</type>
+				<maintype>Unit</maintype>
+				<manacost>3[White] 2[Colourless]</manacost>
+				<cmc>5</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>7000/1</pt>
+			</prop>
+		 <set rarity="N" num="A-PR-36" picurl="https://64.media.tumblr.com/719ab54b4c6388e5a2c45afb3077b016/80264663998bd772-43/s400x600/01776720a9dbb0c62daf55cc94749816d08bb165.png">PR</set>
 		 <tablerow>2</tablerow>
 	</card>
 	
