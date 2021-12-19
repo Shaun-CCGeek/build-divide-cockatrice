@@ -42,6 +42,13 @@
 	  <settype>Promotional</settype>
 	  <releasedate>2021-10-08</releasedate>
 	</set>
+	
+	<set>
+	  <name>SP</name>
+	  <longname>Special Parallel</longname>
+	  <settype>Promotional</settype>
+	  <releasedate>2021-10-08</releasedate>
+	</set>
 
   </sets>
   <cards>
@@ -123,6 +130,7 @@ Territory (Seven Deadly Sins: Greed): [ACT] (Normal/Rest this unit, Remove 6 car
 				<pt>5500/1</pt>
 		  </prop>
 	  <set rarity="SD" num="A-S1-03" picurl="https://buildlabo.com/card/large/33.png">SD01</set>
+	  <set rarity="UR" num="A-SP-01" picurl="https://s3-ap-northeast-1.amazonaws.com/prod-tcg-web-ap-northeast-1-dfbnh/public-tcg-web/card/9ec819f711e40cc9bc39e7b31d4d6816f831a35e2a460f579f4453dc9f6b2d6e.png">SP</set>
 	  <tablerow>2</tablerow>
 	</card>
 	
@@ -1029,6 +1037,7 @@ Scout: Look at the top 3 cards of your deck, place any of them on the top or bot
 				<pt>5500/1</pt>
 			</prop>
 		 <set rarity="SR" num="A-B1-30" picurl="https://buildlabo.com/card/large/98.png">B1</set>
+		 <set rarity="N" num="A-SP-16" picurl="https://s3-ap-northeast-1.amazonaws.com/prod-tcg-web-ap-northeast-1-dfbnh/public-tcg-web/card/20e3daeb40db1ffd4407334f2e5fd0f97c42b8bada5368691a6daa3fa4ba7785.png">SP</set>
 		 <tablerow>2</tablerow>
 	</card>
 	
@@ -1357,7 +1366,7 @@ Territory (Brave Princess): [CONT] If all of your energy is in Rest, this unit c
 	
 	<card>
 		 <name>Valerie, Angel of Self-Restraint</name>
-		 <text></text>
+		 <text>[CONT] This unit reduces all Damage it receives by 2000.</text>
 			<prop>
 				<type>Unit - Angel</type>
 				<maintype>Unit</maintype>
@@ -3365,7 +3374,21 @@ Territory: (Great Barbarian) [CONT] If you have 8 or more energy, this unit gets
 	
 	<!-- Madoka -->
 
-
+	<card>
+		 <name>Madoka Kaname, Eyes of Determination</name>
+		 <text></text>
+			<prop>
+				<type>Unit - Mage</type>
+				<maintype>Unit</maintype>
+				<manacost>1[White] 2[Colourless]</manacost>
+				<cmc>3</cmc>
+				<colors>White</colors>
+				<coloridentity>White</coloridentity>
+				<pt>4000/1</pt>
+			</prop>
+		 <set rarity="N" num="" picurl="https://buildlabo.com/card/large/128.png">PR</set>
+		 <tablerow>2</tablerow>
+	</card>
 	<card>
 		 <name>Mami Tomoe, Magical Silver Bullet</name>
 		 <text>Territory: (Puella Magi) [AUTO] When this unit attacks, you can put the top card of your deck in the graveyard. If you put a Shot card, then deal damage to all of your opponent's units equal to the power of this unit.</text>
@@ -3659,5 +3682,19 @@ Territory: +3000 Power.</text>
 		 <tablerow>2</tablerow>
 	</card>
 	
+	<card>
+		 <name>Rebuild Battle</name>
+		 <text>Target up to 2 of your opponent's units. For the rest of this turn, target gets -3000 Power.</text>
+			<prop>
+				<type>Command - Strife</type>
+				<maintype>Command</maintype>
+				<manacost>1[Black] 1[Colourless]</manacost>
+				<cmc>2</cmc>
+				<colors>Black</colors>
+				<coloridentity>Black</coloridentity>
+			</prop>
+		 <set rarity="R" num="A-SP-07" picurl="https://buildlabo.com/card/large/135.png">SP</set>
+		 <tablerow>3</tablerow>
+	</card>
   </cards>
 </cockatrice_carddatabase>
