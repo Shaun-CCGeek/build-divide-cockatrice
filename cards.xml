@@ -3686,7 +3686,7 @@ Territory: +3000 Power.</text>
 		 <name>Rebuild Battle</name>
 		 <text>Target up to 2 of your opponent's units. For the rest of this turn, target gets -3000 Power.</text>
 			<prop>
-				<type>Command - Strife</type>
+				<type>Command/Shot - Strife</type>
 				<maintype>Command</maintype>
 				<manacost>1[Black] 1[Colourless]</manacost>
 				<cmc>2</cmc>
