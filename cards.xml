@@ -1467,7 +1467,7 @@ Territory: +3000 Power.</text>
 [ACT] (Quick/1 [White], Remove 2 Judgement Counters) Target 1 unit, for the rest of this turn, nullify the next damage it receives. This ability can only be used once per turn.
 Territory (Adjudicator): [CONT] If you have removed at least 1 Judgement Counter this turn, this unit gets +5000 Power, +1 Hit.</text>
 			<prop>
-				<type>Unit - Angel</type>
+				<type>Unit/Ace - Angel</type>
 				<maintype>Unit</maintype>
 				<manacost>2[White] 3[Colourless]</manacost>
 				<cmc>5</cmc>
