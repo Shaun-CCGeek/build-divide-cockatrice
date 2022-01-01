@@ -1399,7 +1399,7 @@ Territory: +3000 Power.</text>
 	
 	<card>
 		 <name>Righrie, Twin Angel of Punishment</name>
-		 <text>[Judgement: When your opponent places a creature, you gain 1 Judgement Counter]</text>
+		 <text>[Judgement: When your opponent places a unit, you gain 1 Judgement Counter]</text>
 			<prop>
 				<type>Unit - Angel</type>
 				<maintype>Unit</maintype>
@@ -1415,7 +1415,7 @@ Territory: +3000 Power.</text>
 	
 	<card>
 		 <name>Lerfie, Twin Angel of Punishment</name>
-		 <text>[Judgement: When your opponent places a creature, you gain 1 Judgement Counter]</text>
+		 <text>[Judgement: When your opponent places a unit, you gain 1 Judgement Counter]</text>
 			<prop>
 				<type>Unit - Angel</type>
 				<maintype>Unit</maintype>
@@ -1447,7 +1447,7 @@ Territory: +3000 Power.</text>
 	
 	<card>
 		 <name>Ladrasis, Sacred Beast</name>
-		 <text>[Judgement: When your opponent places a creature, you gain 1 Judgement Counter]</text>
+		 <text>[Judgement: When your opponent places a unit, you gain 1 Judgement Counter]</text>
 			<prop>
 				<type>Unit - Beast</type>
 				<maintype>Unit</maintype>
@@ -1463,7 +1463,7 @@ Territory: +3000 Power.</text>
 	
 	<card>
 		 <name>Margeria, Angel of Judgement</name>
-		 <text>[Judgement: When your opponent places a creature, you gain 1 Judgement Counter]
+		 <text>[Judgement: When your opponent places a unit, you gain 1 Judgement Counter]
 [ACT] (Quick/1 [White], Remove 2 Judgement Counters) Target 1 unit, for the rest of this turn, nullify the next damage it receives. This ability can only be used once per turn.
 Territory (Adjudicator): [CONT] If you have removed at least 1 Judgement Counter this turn, this unit gets +5000 Power, +1 Hit.</text>
 			<prop>
@@ -1548,7 +1548,7 @@ Territory (Oppressor): [AUTO] When this unit attacks, you can Rest one of your o
 	
 	<card>
 		 <name>Elisabert, Angel of the Law</name>
-		 <text>[Judgement: When your opponent places a creature, you gain 1 Judgement Counter]
+		 <text>[Judgement: When your opponent places a unit, you gain 1 Judgement Counter]
 Territory: [AUTO] When this unit is placed, you can remove 1 Judgement Counter. If you do so, draw 1 card, then place up to 1 unit from your hand with a total cost of 5 or less to your side of the field.</text>
 			<prop>
 				<type>Unit/Buster -  Angel</type>
@@ -1582,7 +1582,7 @@ Territory: [AUTO] When this unit is placed, you can remove 1 Judgement Counter. 
 	
 	<card>
 		 <name>Growner, Spirit of Thunderstrikes</name>
-		 <text>[Judgement: When your opponent places a creature, you gain 1 Judgement Counter]</text>
+		 <text>[Judgement: When your opponent places a unit, you gain 1 Judgement Counter]</text>
 			<prop>
 				<type>Unit - Spirit</type>
 				<maintype>Unit</maintype>
@@ -2763,7 +2763,7 @@ Territory: [ACT] (Normal/Remove 2 Judgement Counters) For this turn, when this u
 	
 	<card>
 		 <name>Urraca, Angel of Discipline</name>
-		 <text>[Judgement: When your opponent places a creature, you gain 1 Judgement Counter] 
+		 <text>[Judgement: When your opponent places a unit, you gain 1 Judgement Counter] 
 [CONT] If you have 3 or more Judgement Counters, this unit gets +3000 Power.</text>
 			<prop>
 				<type>Unit - Angel</type>
@@ -2877,7 +2877,7 @@ Territory: +3000 Power.</text>
 	
 	<card>
 		 <name>Dargil, Angel of the Imperial Order</name>
-		 <text>[Judgement: When your opponent places a creature, you gain 1 Judgement Counter]
+		 <text>[Judgement: When your opponent places a unit, you gain 1 Judgement Counter]
 [CONT] If you have 3 or more Judgement Counters, this unit gets +3000 Power.</text>
 			<prop>
 				<type>Unit - Angel</type>
@@ -2894,7 +2894,7 @@ Territory: +3000 Power.</text>
 	
 	<card>
 		 <name>Rajama, Spirit of Ignition</name>
-		 <text>[Judgement: When your opponent places a creature, you gain 1 Judgement Counter]</text>
+		 <text>[Judgement: When your opponent places a unit, you gain 1 Judgement Counter]</text>
 			<prop>
 				<type>Unit - Spirit</type>
 				<maintype>Unit</maintype>
@@ -2926,7 +2926,7 @@ Territory: +3000 Power.</text>
 	
 	<card>
 		 <name>Helmina, Angel of Forgetfulness</name>
-		 <text>[Judgement: When your opponent places a creature, you gain 1 Judgement Counter]
+		 <text>[Judgement: When your opponent places a unit, you gain 1 Judgement Counter]
 Territory: [AUTO] When this unit is placed, you can remove 1 Judgement Counter. If you do so, target 1 unit: it loses its original abilities for the rest of this turn. (Original abilities are the abilities written on that unit's card)</text>
 			<prop>
 				<type>Unit/Buster - Angel</type>
